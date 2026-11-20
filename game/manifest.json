@@ -1,0 +1,7838 @@
+[
+  {
+    "path": "ANYS.AFP",
+    "size": 1
+  },
+  {
+    "path": "CONFIG.AFP",
+    "size": 116
+  },
+  {
+    "path": "igi.exe",
+    "size": 1384448
+  },
+  {
+    "path": "MPZM.AFP",
+    "size": 1
+  },
+  {
+    "path": "Visit Eidos Interactive - Tech Support.url",
+    "size": 90
+  },
+  {
+    "path": "Visit Eidos Interactive.url",
+    "size": 76
+  },
+  {
+    "path": "Visit Innerloop Studios.url",
+    "size": 80
+  },
+  {
+    "path": "Visit Leaderspa.it.url",
+    "size": 79
+  },
+  {
+    "path": "Visit proein.com.url",
+    "size": 77
+  },
+  {
+    "path": "YMBE.AFP",
+    "size": 1
+  },
+  {
+    "path": "ammo/1000/ammo.qvm",
+    "size": 270
+  },
+  {
+    "path": "ammo/12/ammo.qvm",
+    "size": 259
+  },
+  {
+    "path": "ammo/127/ammo.qvm",
+    "size": 255
+  },
+  {
+    "path": "ammo/357/ammo.qvm",
+    "size": 266
+  },
+  {
+    "path": "ammo/44/ammo.qvm",
+    "size": 263
+  },
+  {
+    "path": "ammo/556/ammo.qvm",
+    "size": 267
+  },
+  {
+    "path": "ammo/762/ammo.qvm",
+    "size": 264
+  },
+  {
+    "path": "ammo/919/ammo.qvm",
+    "size": 267
+  },
+  {
+    "path": "ammo/DRAGUNOV/ammo.qvm",
+    "size": 267
+  },
+  {
+    "path": "ammo/FLASHBANG/ammo.qvm",
+    "size": 268
+  },
+  {
+    "path": "ammo/GRENADE/ammo.qvm",
+    "size": 266
+  },
+  {
+    "path": "ammo/M203/ammo.qvm",
+    "size": 263
+  },
+  {
+    "path": "ammo/MEDIPACK/ammo.qvm",
+    "size": 277
+  },
+  {
+    "path": "ammo/PROXIMITYMINE/ammo.qvm",
+    "size": 272
+  },
+  {
+    "path": "animtrigger/animtrigger.qvm",
+    "size": 3115
+  },
+  {
+    "path": "common/ai/anya.qvm",
+    "size": 3745
+  },
+  {
+    "path": "common/ai/civilian.qvm",
+    "size": 1515
+  },
+  {
+    "path": "common/ai/ekk.qvm",
+    "size": 3354
+  },
+  {
+    "path": "common/ai/guard.qvm",
+    "size": 3744
+  },
+  {
+    "path": "common/ai/gunner.qvm",
+    "size": 3242
+  },
+  {
+    "path": "common/ai/observer.qvm",
+    "size": 411
+  },
+  {
+    "path": "common/ai/patrol.qvm",
+    "size": 3745
+  },
+  {
+    "path": "common/ai/priboi.qvm",
+    "size": 3744
+  },
+  {
+    "path": "common/ai/radioguard.qvm",
+    "size": 411
+  },
+  {
+    "path": "common/ai/rpg.qvm",
+    "size": 3228
+  },
+  {
+    "path": "common/ai/settings.qvm",
+    "size": 35663
+  },
+  {
+    "path": "common/ai/sniper.qvm",
+    "size": 3100
+  },
+  {
+    "path": "common/anims/000.iff",
+    "size": 1512568
+  },
+  {
+    "path": "common/anims/001.iff",
+    "size": 1565672
+  },
+  {
+    "path": "common/anims/002.iff",
+    "size": 169996
+  },
+  {
+    "path": "common/anims/003.iff",
+    "size": 604088
+  },
+  {
+    "path": "common/anims/005.iff",
+    "size": 946668
+  },
+  {
+    "path": "common/anims/006.iff",
+    "size": 639204
+  },
+  {
+    "path": "common/common.dat",
+    "size": 12538
+  },
+  {
+    "path": "common/common.mtp",
+    "size": 13928
+  },
+  {
+    "path": "common/sounds/sounds.qvm",
+    "size": 56265
+  },
+  {
+    "path": "common/sounds/sounds.res",
+    "size": 15081765
+  },
+  {
+    "path": "common/sprites/sprites.res",
+    "size": 469112
+  },
+  {
+    "path": "common/textures/common.res",
+    "size": 2343616
+  },
+  {
+    "path": "common/textures/flare00.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare01.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare02.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare03.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare04.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare05.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare06.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/flare07.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/shadow00.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/shadow01.tex",
+    "size": 8216
+  },
+  {
+    "path": "common/textures/textures.res",
+    "size": 237660
+  },
+  {
+    "path": "computer/computer.res",
+    "size": 437164
+  },
+  {
+    "path": "config.qvm",
+    "size": 3770
+  },
+  {
+    "path": "humanplayer/humanplayer.qvm",
+    "size": 1457
+  },
+  {
+    "path": "language/USA/computer.res",
+    "size": 332
+  },
+  {
+    "path": "language/USA/menusystem.res",
+    "size": 23492
+  },
+  {
+    "path": "language/USA/messages.res",
+    "size": 60123
+  },
+  {
+    "path": "language/USA/missions.res",
+    "size": 3058
+  },
+  {
+    "path": "language/USA/movies.res",
+    "size": 1593
+  },
+  {
+    "path": "language/USA/objectives.res",
+    "size": 6352
+  },
+  {
+    "path": "language/USA/readme.rtf",
+    "size": 22470
+  },
+  {
+    "path": "language/USA/readme.txt",
+    "size": 22470
+  },
+  {
+    "path": "language/english/ReadMe.rtf",
+    "size": 26075
+  },
+  {
+    "path": "language/english/ReadMe.txt",
+    "size": 26075
+  },
+  {
+    "path": "language/english/computer.res",
+    "size": 332
+  },
+  {
+    "path": "language/english/config.qvm",
+    "size": 2515
+  },
+  {
+    "path": "language/english/menusystem.res",
+    "size": 25592
+  },
+  {
+    "path": "language/english/messages.res",
+    "size": 60123
+  },
+  {
+    "path": "language/english/missions.res",
+    "size": 3290
+  },
+  {
+    "path": "language/english/movies.res",
+    "size": 1593
+  },
+  {
+    "path": "language/english/objectives.res",
+    "size": 6352
+  },
+  {
+    "path": "language/french/ReadMe.rtf",
+    "size": 27287
+  },
+  {
+    "path": "language/french/ReadMe.txt",
+    "size": 27287
+  },
+  {
+    "path": "language/french/computer.res",
+    "size": 363
+  },
+  {
+    "path": "language/french/config.qvm",
+    "size": 2514
+  },
+  {
+    "path": "language/french/menusystem.res",
+    "size": 25627
+  },
+  {
+    "path": "language/french/messages.res",
+    "size": 67179
+  },
+  {
+    "path": "language/french/missions.res",
+    "size": 3222
+  },
+  {
+    "path": "language/french/movies.res",
+    "size": 1667
+  },
+  {
+    "path": "language/french/objectives.res",
+    "size": 6517
+  },
+  {
+    "path": "language/german/ReadMe.rtf",
+    "size": 28504
+  },
+  {
+    "path": "language/german/ReadMe.txt",
+    "size": 28502
+  },
+  {
+    "path": "language/german/computer.res",
+    "size": 356
+  },
+  {
+    "path": "language/german/config.qvm",
+    "size": 2514
+  },
+  {
+    "path": "language/german/menusystem.res",
+    "size": 25311
+  },
+  {
+    "path": "language/german/messages.res",
+    "size": 66219
+  },
+  {
+    "path": "language/german/missions.res",
+    "size": 3210
+  },
+  {
+    "path": "language/german/movies.res",
+    "size": 1746
+  },
+  {
+    "path": "language/german/objectives.res",
+    "size": 6971
+  },
+  {
+    "path": "language/italian/ReadMe.rtf",
+    "size": 28939
+  },
+  {
+    "path": "language/italian/ReadMe.txt",
+    "size": 28939
+  },
+  {
+    "path": "language/italian/computer.res",
+    "size": 352
+  },
+  {
+    "path": "language/italian/config.qvm",
+    "size": 2515
+  },
+  {
+    "path": "language/italian/menusystem.res",
+    "size": 26036
+  },
+  {
+    "path": "language/italian/messages.res",
+    "size": 64866
+  },
+  {
+    "path": "language/italian/missions.res",
+    "size": 3374
+  },
+  {
+    "path": "language/italian/movies.res",
+    "size": 1632
+  },
+  {
+    "path": "language/italian/objectives.res",
+    "size": 6682
+  },
+  {
+    "path": "language/spanish/ReadMe.rtf",
+    "size": 28840
+  },
+  {
+    "path": "language/spanish/ReadMe.txt",
+    "size": 28840
+  },
+  {
+    "path": "language/spanish/computer.res",
+    "size": 356
+  },
+  {
+    "path": "language/spanish/config.qvm",
+    "size": 2515
+  },
+  {
+    "path": "language/spanish/menusystem.res",
+    "size": 26492
+  },
+  {
+    "path": "language/spanish/messages.res",
+    "size": 62865
+  },
+  {
+    "path": "language/spanish/missions.res",
+    "size": 3414
+  },
+  {
+    "path": "language/spanish/movies.res",
+    "size": 1586
+  },
+  {
+    "path": "language/spanish/objectives.res",
+    "size": 6961
+  },
+  {
+    "path": "lod.qvm",
+    "size": 48510
+  },
+  {
+    "path": "magicobj/editormagicobj.qvm",
+    "size": 438
+  },
+  {
+    "path": "magicobj/magicobj.qvm",
+    "size": 19994
+  },
+  {
+    "path": "material/material.qvm",
+    "size": 10526
+  },
+  {
+    "path": "menusystem/SOUND/sounds.res",
+    "size": 1766902
+  },
+  {
+    "path": "menusystem/english.res",
+    "size": 16863
+  },
+  {
+    "path": "menusystem/ingamemenu.qvm",
+    "size": 11308
+  },
+  {
+    "path": "menusystem/ingamemenu.res",
+    "size": 283634
+  },
+  {
+    "path": "menusystem/loadingscreen.res",
+    "size": 2472413
+  },
+  {
+    "path": "menusystem/mainmenu.qvm",
+    "size": 25549
+  },
+  {
+    "path": "menusystem/menusystem.dat",
+    "size": 121
+  },
+  {
+    "path": "menusystem/menusystem.mtp",
+    "size": 196
+  },
+  {
+    "path": "menusystem/menusystem.res",
+    "size": 1919527
+  },
+  {
+    "path": "menusystem/missionsprites.res",
+    "size": 586425
+  },
+  {
+    "path": "missions/location0/common/location0.dat",
+    "size": 12133
+  },
+  {
+    "path": "missions/location0/common/location0.mtp",
+    "size": 13256
+  },
+  {
+    "path": "missions/location0/common/models/location0.res",
+    "size": 2923620
+  },
+  {
+    "path": "missions/location0/common/textures/location0.res",
+    "size": 3728032
+  },
+  {
+    "path": "missions/location0/common/textures/sky_layer1.tex",
+    "size": 16416
+  },
+  {
+    "path": "missions/location0/common/textures/sky_layer2.tex",
+    "size": 8224
+  },
+  {
+    "path": "missions/location0/level1/ai/1205.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/1506.qvm",
+    "size": 479
+  },
+  {
+    "path": "missions/location0/level1/ai/1512.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/1566.qvm",
+    "size": 453
+  },
+  {
+    "path": "missions/location0/level1/ai/1667.qvm",
+    "size": 510
+  },
+  {
+    "path": "missions/location0/level1/ai/1768.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/1898.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level1/ai/1989.qvm",
+    "size": 497
+  },
+  {
+    "path": "missions/location0/level1/ai/2022.qvm",
+    "size": 479
+  },
+  {
+    "path": "missions/location0/level1/ai/2200.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2201.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2202.qvm",
+    "size": 709
+  },
+  {
+    "path": "missions/location0/level1/ai/2203.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2204.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2205.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2206.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2207.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2208.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2209.qvm",
+    "size": 552
+  },
+  {
+    "path": "missions/location0/level1/ai/2210.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2211.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2212.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2213.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2214.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2215.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2216.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level1/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2225.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/2226.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level1/ai/3001.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/3032.qvm",
+    "size": 496
+  },
+  {
+    "path": "missions/location0/level1/ai/3091.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level1/ai/3099.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level1/ai/3201.qvm",
+    "size": 508
+  },
+  {
+    "path": "missions/location0/level1/ai/3333.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph1.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph12.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph13.dat",
+    "size": 80534
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph14.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph15.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph2.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph3.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph4019.dat",
+    "size": 776805
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph6.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph7.dat",
+    "size": 81503
+  },
+  {
+    "path": "missions/location0/level1/graphs/graph8.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level1/level1.dat",
+    "size": 28498
+  },
+  {
+    "path": "missions/location0/level1/level1.mtp",
+    "size": 26528
+  },
+  {
+    "path": "missions/location0/level1/lightmaps/lightmaps.res",
+    "size": 1668412
+  },
+  {
+    "path": "missions/location0/level1/mission.qvm",
+    "size": 313
+  },
+  {
+    "path": "missions/location0/level1/models/level1.res",
+    "size": 5029944
+  },
+  {
+    "path": "missions/location0/level1/objects.qvm",
+    "size": 183749
+  },
+  {
+    "path": "missions/location0/level1/sounds/_cut01_01.wav",
+    "size": 1077517
+  },
+  {
+    "path": "missions/location0/level1/sounds/game_music.wav",
+    "size": 3196315
+  },
+  {
+    "path": "missions/location0/level1/sounds/m01_ing_01.wav",
+    "size": 28560
+  },
+  {
+    "path": "missions/location0/level1/sounds/m01_ing_02.wav",
+    "size": 224789
+  },
+  {
+    "path": "missions/location0/level1/sounds/m01_ing_03.wav",
+    "size": 21312
+  },
+  {
+    "path": "missions/location0/level1/sounds/m01_ing_04.wav",
+    "size": 23509
+  },
+  {
+    "path": "missions/location0/level1/sounds/m01_ing_05.wav",
+    "size": 244245
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_ambience.wav",
+    "size": 1454224
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_beeps01.wav",
+    "size": 966668
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliaway01.wav",
+    "size": 89804
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliblad01.wav",
+    "size": 69003
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliblad02.wav",
+    "size": 54288
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliby01.wav",
+    "size": 58215
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliby02.wav",
+    "size": 43988
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heligen01.wav",
+    "size": 66198
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_heliinside01.wav",
+    "size": 34800
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_office01.wav",
+    "size": 224294
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_office02.wav",
+    "size": 168450
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_office03.wav",
+    "size": 171018
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_trainby01.wav",
+    "size": 94215
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_trainext01.wav",
+    "size": 41120
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1_type01.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_baseamb.wav",
+    "size": 377841
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_hammer.wav",
+    "size": 32276
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_train1.wav",
+    "size": 43541
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_train2.wav",
+    "size": 94215
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_truck.wav",
+    "size": 406673
+  },
+  {
+    "path": "missions/location0/level1/sounds/m1o_wind.wav",
+    "size": 113682
+  },
+  {
+    "path": "missions/location0/level1/sounds/machinery_01.wav",
+    "size": 30612
+  },
+  {
+    "path": "missions/location0/level1/sounds/sounds.qvm",
+    "size": 3479
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.bit",
+    "size": 71552
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.cmd",
+    "size": 508696
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.ctr",
+    "size": 352704
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.hmp",
+    "size": 52995
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.lmp",
+    "size": 461360
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level1/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level1/textures/level1.res",
+    "size": 6662688
+  },
+  {
+    "path": "missions/location0/level10/ai/1314.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/1402.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level10/ai/1403.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level10/ai/3003.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/3032.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/4000.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level10/ai/4001.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level10/ai/500.qvm",
+    "size": 509
+  },
+  {
+    "path": "missions/location0/level10/ai/501.qvm",
+    "size": 507
+  },
+  {
+    "path": "missions/location0/level10/ai/502.qvm",
+    "size": 509
+  },
+  {
+    "path": "missions/location0/level10/ai/503.qvm",
+    "size": 1238
+  },
+  {
+    "path": "missions/location0/level10/ai/504.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/505.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/506.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/507.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/508.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/509.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/510.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/511.qvm",
+    "size": 464
+  },
+  {
+    "path": "missions/location0/level10/ai/512.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level10/ai/513.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level10/ai/514.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level10/ai/515.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level10/ai/516.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level10/ai/517.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level10/ai/518.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/519.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/520.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/521.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/522.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/523.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/524.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/525.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/526.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/527.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/528.qvm",
+    "size": 420
+  },
+  {
+    "path": "missions/location0/level10/ai/529.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/530.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/531.qvm",
+    "size": 420
+  },
+  {
+    "path": "missions/location0/level10/ai/532.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/ai/709.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level10/ai/711.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph1.dat",
+    "size": 81578
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph11.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph12.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph13.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph14.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph15.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph2.dat",
+    "size": 92986
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph3.dat",
+    "size": 90740
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph3000.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph6.dat",
+    "size": 92438
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph7.dat",
+    "size": 91412
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph8.dat",
+    "size": 94572
+  },
+  {
+    "path": "missions/location0/level10/graphs/graph9.dat",
+    "size": 81488
+  },
+  {
+    "path": "missions/location0/level10/level10.dat",
+    "size": 32760
+  },
+  {
+    "path": "missions/location0/level10/level10.mtp",
+    "size": 30112
+  },
+  {
+    "path": "missions/location0/level10/lightmaps/lightmaps.res",
+    "size": 1923432
+  },
+  {
+    "path": "missions/location0/level10/mission.qvm",
+    "size": 319
+  },
+  {
+    "path": "missions/location0/level10/models/level10.res",
+    "size": 6981740
+  },
+  {
+    "path": "missions/location0/level10/objects.qvm",
+    "size": 207220
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_01.wav",
+    "size": 46978
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_02.wav",
+    "size": 15470
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_03.wav",
+    "size": 70466
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_04.wav",
+    "size": 24148
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_05.wav",
+    "size": 41901
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_06.wav",
+    "size": 35101
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_07.wav",
+    "size": 17323
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_08.wav",
+    "size": 17009
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_09.wav",
+    "size": 11623
+  },
+  {
+    "path": "missions/location0/level10/sounds/_cut10_10.wav",
+    "size": 16645
+  },
+  {
+    "path": "missions/location0/level10/sounds/game_music.wav",
+    "size": 2811117
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10_ambience.wav",
+    "size": 461813
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_ak1.wav",
+    "size": 41055
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_ak2.wav",
+    "size": 32591
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_heliaway.wav",
+    "size": 89804
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_heliblad.wav",
+    "size": 67045
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_heliblfd.wav",
+    "size": 67045
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_helistrt.wav",
+    "size": 384013
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_rain1.wav",
+    "size": 166941
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_rain2.wav",
+    "size": 166931
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_run1.wav",
+    "size": 139885
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_run2.wav",
+    "size": 84029
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_run3.wav",
+    "size": 151583
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_tank1.wav",
+    "size": 230419
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_tank2.wav",
+    "size": 194629
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_tank3.wav",
+    "size": 250237
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_tankshot1.wav",
+    "size": 250031
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_tankshot2.wav",
+    "size": 251923
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_uzi1.wav",
+    "size": 55208
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_uzi2.wav",
+    "size": 43800
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice1.wav",
+    "size": 47211
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice2.wav",
+    "size": 45103
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice3.wav",
+    "size": 31441
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice4.wav",
+    "size": 40959
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice5.wav",
+    "size": 18707
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice6.wav",
+    "size": 22227
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice7.wav",
+    "size": 24768
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_voice8.wav",
+    "size": 413653
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_war1.wav",
+    "size": 295437
+  },
+  {
+    "path": "missions/location0/level10/sounds/m10o_wind.wav",
+    "size": 163257
+  },
+  {
+    "path": "missions/location0/level10/sounds/missile_away_01.wav",
+    "size": 71553
+  },
+  {
+    "path": "missions/location0/level10/sounds/missile_imp_01.wav",
+    "size": 41989
+  },
+  {
+    "path": "missions/location0/level10/sounds/missile_loop_01.wav",
+    "size": 37836
+  },
+  {
+    "path": "missions/location0/level10/sounds/plane_steady_01.wav",
+    "size": 33894
+  },
+  {
+    "path": "missions/location0/level10/sounds/rain_1.wav",
+    "size": 41748
+  },
+  {
+    "path": "missions/location0/level10/sounds/rain_2.wav",
+    "size": 42324
+  },
+  {
+    "path": "missions/location0/level10/sounds/sounds.qvm",
+    "size": 6901
+  },
+  {
+    "path": "missions/location0/level10/sounds/thunder_1.wav",
+    "size": 57999
+  },
+  {
+    "path": "missions/location0/level10/sounds/thunder_2.wav",
+    "size": 52976
+  },
+  {
+    "path": "missions/location0/level10/sounds/thunder_3.wav",
+    "size": 57099
+  },
+  {
+    "path": "missions/location0/level10/sounds/train_break_01.wav",
+    "size": 200977
+  },
+  {
+    "path": "missions/location0/level10/sounds/train_by_01.wav",
+    "size": 94215
+  },
+  {
+    "path": "missions/location0/level10/sounds/train_coll_01.wav",
+    "size": 34991
+  },
+  {
+    "path": "missions/location0/level10/sounds/train_ext_01.wav",
+    "size": 41120
+  },
+  {
+    "path": "missions/location0/level10/sounds/train_horn_01.wav",
+    "size": 43979
+  },
+  {
+    "path": "missions/location0/level10/sounds/wind_cold_1.wav",
+    "size": 151323
+  },
+  {
+    "path": "missions/location0/level10/sounds/wind_cold_fx_1.wav",
+    "size": 23060
+  },
+  {
+    "path": "missions/location0/level10/sounds/wind_cold_fx_2.wav",
+    "size": 40446
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.bit",
+    "size": 78848
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.cmd",
+    "size": 509760
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.ctr",
+    "size": 353696
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.hmp",
+    "size": 36354
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.lmp",
+    "size": 469120
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level10/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level10/textures/level10.res",
+    "size": 8472644
+  },
+  {
+    "path": "missions/location0/level11/ai/1133.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level11/ai/1501.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level11/ai/1502.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level11/ai/1503.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2200.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2201.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2202.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2203.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2204.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2205.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2206.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2207.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2208.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2209.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2210.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2211.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level11/ai/2212.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2213.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2214.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2215.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2216.qvm",
+    "size": 652
+  },
+  {
+    "path": "missions/location0/level11/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2220.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2221.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level11/ai/2222.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2223.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2224.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2225.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2226.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2227.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2228.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2229.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2230.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2231.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2232.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2233.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2234.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2235.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2236.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2237.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2238.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2239.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2240.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2241.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2242.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2243.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2244.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2245.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2246.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2247.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2248.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2249.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/2250.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level11/ai/2251.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level11/ai/2252.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level11/ai/2253.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2254.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2255.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2256.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2257.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2258.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2259.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2260.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/2261.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level11/ai/3002.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/ai/3003.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph1.dat",
+    "size": 772280
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph11.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph12.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph13.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph14.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph15.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph16.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph17.dat",
+    "size": 81682
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph18.dat",
+    "size": 81646
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph19.dat",
+    "size": 81718
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph2.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph20.dat",
+    "size": 354612
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph21.dat",
+    "size": 82273
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph22.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph23.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph24.dat",
+    "size": 80245
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph25.dat",
+    "size": 82892
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph26.dat",
+    "size": 81722
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph27.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph3.dat",
+    "size": 81182
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph6.dat",
+    "size": 80999
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph7.dat",
+    "size": 82330
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph8.dat",
+    "size": 348773
+  },
+  {
+    "path": "missions/location0/level11/graphs/graph9.dat",
+    "size": 349600
+  },
+  {
+    "path": "missions/location0/level11/level11.dat",
+    "size": 44820
+  },
+  {
+    "path": "missions/location0/level11/level11.mtp",
+    "size": 40324
+  },
+  {
+    "path": "missions/location0/level11/lightmaps/lightmaps.res",
+    "size": 2754244
+  },
+  {
+    "path": "missions/location0/level11/mission.qvm",
+    "size": 319
+  },
+  {
+    "path": "missions/location0/level11/models/level11.res",
+    "size": 9183508
+  },
+  {
+    "path": "missions/location0/level11/objects.qvm",
+    "size": 231498
+  },
+  {
+    "path": "missions/location0/level11/sounds/_cut11_01.wav",
+    "size": 720533
+  },
+  {
+    "path": "missions/location0/level11/sounds/game_music.wav",
+    "size": 1745507
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_heliby.wav",
+    "size": 229955
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_helichase.wav",
+    "size": 238591
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_heliland.wav",
+    "size": 244739
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_01.wav",
+    "size": 38421
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_02.wav",
+    "size": 124949
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_03.wav",
+    "size": 143317
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_04.wav",
+    "size": 4696
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_05.wav",
+    "size": 77077
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_06.wav",
+    "size": 29356
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_07.wav",
+    "size": 139541
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_08.wav",
+    "size": 54567
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_09.wav",
+    "size": 70037
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_10.wav",
+    "size": 246805
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_11.wav",
+    "size": 23788
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_ing_12.wav",
+    "size": 6421
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_office1.wav",
+    "size": 172069
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_office2.wav",
+    "size": 175648
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_type.wav",
+    "size": 239119
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_wind.wav",
+    "size": 166427
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_windfx1.wav",
+    "size": 30766
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_windfx2.wav",
+    "size": 47178
+  },
+  {
+    "path": "missions/location0/level11/sounds/m11_windland.wav",
+    "size": 73615
+  },
+  {
+    "path": "missions/location0/level11/sounds/sounds.qvm",
+    "size": 3524
+  },
+  {
+    "path": "missions/location0/level11/sounds/wind_cold_1.wav",
+    "size": 151323
+  },
+  {
+    "path": "missions/location0/level11/sounds/wind_cold_fx_1.wav",
+    "size": 23060
+  },
+  {
+    "path": "missions/location0/level11/sounds/wind_cold_fx_2.wav",
+    "size": 40446
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.bit",
+    "size": 65024
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.cmd",
+    "size": 515320
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.ctr",
+    "size": 360544
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.lmp",
+    "size": 1891936
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.qvm",
+    "size": 13713
+  },
+  {
+    "path": "missions/location0/level11/terrain/terrain.tex",
+    "size": 393868
+  },
+  {
+    "path": "missions/location0/level11/textures/level11.res",
+    "size": 9609112
+  },
+  {
+    "path": "missions/location0/level12/ai/1341.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level12/ai/1601.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level12/ai/1676.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/1778.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level12/ai/1876.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/1888.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/1987.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/1996.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/2099.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/2200.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2201.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2202.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2203.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2204.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2205.qvm",
+    "size": 501
+  },
+  {
+    "path": "missions/location0/level12/ai/2206.qvm",
+    "size": 501
+  },
+  {
+    "path": "missions/location0/level12/ai/2207.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2208.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2209.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2210.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2211.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2212.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2213.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2214.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2215.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2216.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2217.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2218.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2219.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2220.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2221.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2222.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2223.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2224.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2225.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2226.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2227.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2228.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2229.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2230.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2231.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2232.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2233.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2234.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2235.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2236.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2237.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2238.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/2239.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level12/ai/3030.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/3331.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/3332.qvm",
+    "size": 457
+  },
+  {
+    "path": "missions/location0/level12/ai/3333.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/3355.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level12/ai/3445.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph1.dat",
+    "size": 91798
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph11.dat",
+    "size": 81182
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph12.dat",
+    "size": 81182
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph13.dat",
+    "size": 80640
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph14.dat",
+    "size": 94296
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph15.dat",
+    "size": 82442
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph16.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph17.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph18.dat",
+    "size": 80999
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph19.dat",
+    "size": 80999
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph2.dat",
+    "size": 91117
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph20.dat",
+    "size": 338994
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph21.dat",
+    "size": 87733
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph22.dat",
+    "size": 82476
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph23.dat",
+    "size": 84204
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph24.dat",
+    "size": 83680
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph25.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph26.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph27.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph28.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph29.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph3.dat",
+    "size": 82118
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph30.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph31.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph32.dat",
+    "size": 80408
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph33.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph34.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph35.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph36.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph37.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph6.dat",
+    "size": 82964
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph7.dat",
+    "size": 81216
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph8.dat",
+    "size": 81467
+  },
+  {
+    "path": "missions/location0/level12/graphs/graph9.dat",
+    "size": 83154
+  },
+  {
+    "path": "missions/location0/level12/level12.dat",
+    "size": 36068
+  },
+  {
+    "path": "missions/location0/level12/level12.mtp",
+    "size": 33252
+  },
+  {
+    "path": "missions/location0/level12/lightmaps/lightmaps.res",
+    "size": 5833652
+  },
+  {
+    "path": "missions/location0/level12/mission.qvm",
+    "size": 319
+  },
+  {
+    "path": "missions/location0/level12/models/level12.res",
+    "size": 8554792
+  },
+  {
+    "path": "missions/location0/level12/objects.qvm",
+    "size": 220417
+  },
+  {
+    "path": "missions/location0/level12/sounds/_cut12_01.wav",
+    "size": 176274
+  },
+  {
+    "path": "missions/location0/level12/sounds/_cut12_02.wav",
+    "size": 166031
+  },
+  {
+    "path": "missions/location0/level12/sounds/_cut12_03.wav",
+    "size": 230803
+  },
+  {
+    "path": "missions/location0/level12/sounds/_cut12_04.wav",
+    "size": 248485
+  },
+  {
+    "path": "missions/location0/level12/sounds/_cut12_05.wav",
+    "size": 72844
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_01.wav",
+    "size": 126474
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_02.wav",
+    "size": 43217
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_03.wav",
+    "size": 227408
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_04.wav",
+    "size": 161399
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_05.wav",
+    "size": 23827
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_06.wav",
+    "size": 167186
+  },
+  {
+    "path": "missions/location0/level12/sounds/_out12_07.wav",
+    "size": 16688
+  },
+  {
+    "path": "missions/location0/level12/sounds/big_door_01.wav",
+    "size": 69778
+  },
+  {
+    "path": "missions/location0/level12/sounds/game_music.wav",
+    "size": 1510867
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_01.wav",
+    "size": 24724
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_02.wav",
+    "size": 48728
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_03.wav",
+    "size": 48012
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_04.wav",
+    "size": 53260
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_05.wav",
+    "size": 27732
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_06.wav",
+    "size": 17486
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_fx_07.wav",
+    "size": 17499
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_loop_01.wav",
+    "size": 27250
+  },
+  {
+    "path": "missions/location0/level12/sounds/gondola_loop_02.wav",
+    "size": 26590
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_baltochat.wav",
+    "size": 65488
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_breathe1.wav",
+    "size": 22261
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_fan1.wav",
+    "size": 35991
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_heliloop.wav",
+    "size": 90421
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_heliloop2.wav",
+    "size": 86077
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_heliloop3.wav",
+    "size": 65052
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_helistart.wav",
+    "size": 220667
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_office1.wav",
+    "size": 166416
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_office2.wav",
+    "size": 160289
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_type.wav",
+    "size": 239119
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_ugfx1.wav",
+    "size": 53398
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_ugfx2.wav",
+    "size": 30093
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_ugfx3.wav",
+    "size": 25362
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_ugfx4.wav",
+    "size": 18676
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_ugfx5.wav",
+    "size": 88974
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_wind.wav",
+    "size": 166427
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_windfx1.wav",
+    "size": 30766
+  },
+  {
+    "path": "missions/location0/level12/sounds/m12_windfx2.wav",
+    "size": 47178
+  },
+  {
+    "path": "missions/location0/level12/sounds/sounds.qvm",
+    "size": 5927
+  },
+  {
+    "path": "missions/location0/level12/sounds/wind_cold_1.wav",
+    "size": 151323
+  },
+  {
+    "path": "missions/location0/level12/sounds/wind_cold_fx_1.wav",
+    "size": 23060
+  },
+  {
+    "path": "missions/location0/level12/sounds/wind_cold_fx_2.wav",
+    "size": 40446
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.bit",
+    "size": 52736
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.cmd",
+    "size": 511108
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.ctr",
+    "size": 354400
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.lmp",
+    "size": 461360
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.qvm",
+    "size": 13713
+  },
+  {
+    "path": "missions/location0/level12/terrain/terrain.tex",
+    "size": 393868
+  },
+  {
+    "path": "missions/location0/level12/textures/level12.res",
+    "size": 8858876
+  },
+  {
+    "path": "missions/location0/level13/ai/2200.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2201.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2202.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2203.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2204.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2205.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2206.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2207.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2208.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2209.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2210.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2211.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2212.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2213.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2214.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2215.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2216.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2220.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2221.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2222.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2223.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2224.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2225.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2226.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2227.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2228.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2229.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2230.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2231.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2232.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2233.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2234.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2235.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2236.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2237.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2238.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2239.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2240.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2241.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2242.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2243.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2244.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2245.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2246.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2247.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2248.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2249.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2250.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/2251.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level13/ai/2252.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level13/ai/2253.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level13/ai/2254.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level13/ai/2255.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level13/ai/3011.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3012.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3015.qvm",
+    "size": 457
+  },
+  {
+    "path": "missions/location0/level13/ai/3022.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3033.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3041.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3045.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3055.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level13/ai/3088.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3093.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level13/ai/3094.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level13/ai/3099.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3812.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level13/ai/3880.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3881.qvm",
+    "size": 458
+  },
+  {
+    "path": "missions/location0/level13/ai/3892.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/ai/3893.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph1.dat",
+    "size": 83378
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph11.dat",
+    "size": 81106
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph12.dat",
+    "size": 81034
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph13.dat",
+    "size": 80459
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph14.dat",
+    "size": 81902
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph15.dat",
+    "size": 81288
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph16.dat",
+    "size": 352032
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph17.dat",
+    "size": 80606
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph2.dat",
+    "size": 82942
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3.dat",
+    "size": 100942
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3031.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3056.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3096.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3600.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3810.dat",
+    "size": 80894
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph3891.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph6.dat",
+    "size": 338778
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph7.dat",
+    "size": 356210
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph8.dat",
+    "size": 81290
+  },
+  {
+    "path": "missions/location0/level13/graphs/graph9.dat",
+    "size": 358006
+  },
+  {
+    "path": "missions/location0/level13/level13.dat",
+    "size": 36390
+  },
+  {
+    "path": "missions/location0/level13/level13.mtp",
+    "size": 33028
+  },
+  {
+    "path": "missions/location0/level13/lightmaps/lightmaps.res",
+    "size": 5779380
+  },
+  {
+    "path": "missions/location0/level13/mission.qvm",
+    "size": 319
+  },
+  {
+    "path": "missions/location0/level13/models/level13.res",
+    "size": 8490416
+  },
+  {
+    "path": "missions/location0/level13/objects.qvm",
+    "size": 262568
+  },
+  {
+    "path": "missions/location0/level13/sounds/_cut13_01.wav",
+    "size": 474803
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_01.wav",
+    "size": 8426
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_02.wav",
+    "size": 8844
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_03.wav",
+    "size": 105683
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_04.wav",
+    "size": 34940
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_05.wav",
+    "size": 111269
+  },
+  {
+    "path": "missions/location0/level13/sounds/_out13_06.wav",
+    "size": 15133
+  },
+  {
+    "path": "missions/location0/level13/sounds/car_01.wav",
+    "size": 154644
+  },
+  {
+    "path": "missions/location0/level13/sounds/game_music.wav",
+    "size": 4332997
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_ambience.wav",
+    "size": 313611
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_baseamb.wav",
+    "size": 377841
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_heligr1.wav",
+    "size": 116258
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_heligr2.wav",
+    "size": 115230
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_heliinside.wav",
+    "size": 26747
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_heliloop.wav",
+    "size": 50028
+  },
+  {
+    "path": "missions/location0/level13/sounds/m13_wind.wav",
+    "size": 111941
+  },
+  {
+    "path": "missions/location0/level13/sounds/sounds.qvm",
+    "size": 2286
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.bit",
+    "size": 100352
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.cmd",
+    "size": 578888
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.ctr",
+    "size": 396384
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.lmp",
+    "size": 441192
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level13/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level13/textures/level13.res",
+    "size": 9120384
+  },
+  {
+    "path": "missions/location0/level14/ai/1350.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/1351.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level14/ai/1352.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level14/ai/1616.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level14/ai/2500.qvm",
+    "size": 638
+  },
+  {
+    "path": "missions/location0/level14/ai/2501.qvm",
+    "size": 638
+  },
+  {
+    "path": "missions/location0/level14/ai/2502.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level14/ai/2503.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level14/ai/2504.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2505.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2506.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2507.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2508.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2509.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2510.qvm",
+    "size": 563
+  },
+  {
+    "path": "missions/location0/level14/ai/2511.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2512.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2513.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2514.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2515.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2516.qvm",
+    "size": 563
+  },
+  {
+    "path": "missions/location0/level14/ai/2517.qvm",
+    "size": 476
+  },
+  {
+    "path": "missions/location0/level14/ai/2518.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2519.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2520.qvm",
+    "size": 450
+  },
+  {
+    "path": "missions/location0/level14/ai/2521.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2522.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2523.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2524.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2525.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2526.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2527.qvm",
+    "size": 660
+  },
+  {
+    "path": "missions/location0/level14/ai/2528.qvm",
+    "size": 660
+  },
+  {
+    "path": "missions/location0/level14/ai/2529.qvm",
+    "size": 660
+  },
+  {
+    "path": "missions/location0/level14/ai/2530.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2531.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2532.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2533.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2534.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2535.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2536.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2537.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2538.qvm",
+    "size": 460
+  },
+  {
+    "path": "missions/location0/level14/ai/2539.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2540.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2541.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2542.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2543.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2544.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2545.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2546.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2547.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2548.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2549.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2550.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2551.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2552.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2553.qvm",
+    "size": 601
+  },
+  {
+    "path": "missions/location0/level14/ai/2554.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2555.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2556.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2557.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2558.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2559.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2560.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/2561.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2562.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/2563.qvm",
+    "size": 568
+  },
+  {
+    "path": "missions/location0/level14/ai/2564.qvm",
+    "size": 568
+  },
+  {
+    "path": "missions/location0/level14/ai/2565.qvm",
+    "size": 568
+  },
+  {
+    "path": "missions/location0/level14/ai/2566.qvm",
+    "size": 566
+  },
+  {
+    "path": "missions/location0/level14/ai/3300.qvm",
+    "size": 498
+  },
+  {
+    "path": "missions/location0/level14/ai/3323.qvm",
+    "size": 498
+  },
+  {
+    "path": "missions/location0/level14/ai/3335.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level14/ai/3337.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level14/ai/3455.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level14/ai/3456.qvm",
+    "size": 498
+  },
+  {
+    "path": "missions/location0/level14/ai/500.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/501.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/502.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/503.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/504.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/505.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/506.qvm",
+    "size": 458
+  },
+  {
+    "path": "missions/location0/level14/ai/507.qvm",
+    "size": 458
+  },
+  {
+    "path": "missions/location0/level14/ai/508.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/509.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/510.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/511.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/512.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/513.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/514.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/515.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/516.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/517.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/518.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/519.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/520.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/521.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/522.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/523.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/524.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/525.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/526.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/527.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/528.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/529.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/530.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/531.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/532.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/533.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/534.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/535.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/536.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/537.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/538.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/539.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/540.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/541.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/542.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/543.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/544.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/545.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/547.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/548.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/549.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/550.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/551.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/552.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/553.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/554.qvm",
+    "size": 439
+  },
+  {
+    "path": "missions/location0/level14/ai/555.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/556.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/557.qvm",
+    "size": 795
+  },
+  {
+    "path": "missions/location0/level14/ai/558.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/559.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/560.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/561.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/562.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/563.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/564.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/565.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/566.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/568.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/569.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/57.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/570.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/571.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/572.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/573.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/574.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level14/ai/575.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/576.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/577.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/578.qvm",
+    "size": 560
+  },
+  {
+    "path": "missions/location0/level14/ai/579.qvm",
+    "size": 560
+  },
+  {
+    "path": "missions/location0/level14/ai/580.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/581.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/582.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/583.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/584.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/585.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/586.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level14/ai/587.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/588.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/589.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/590.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/591.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/592.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/593.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/594.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/595.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/596.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/597.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/598.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/599.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level14/ai/750.qvm",
+    "size": 926
+  },
+  {
+    "path": "missions/location0/level14/ai/751.qvm",
+    "size": 920
+  },
+  {
+    "path": "missions/location0/level14/ai/752.qvm",
+    "size": 569
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph1.dat",
+    "size": 86940
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph11.dat",
+    "size": 87046
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph12.dat",
+    "size": 85862
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph13.dat",
+    "size": 86239
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph14.dat",
+    "size": 91348
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph15.dat",
+    "size": 88612
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph16.dat",
+    "size": 89854
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph17.dat",
+    "size": 93218
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph18.dat",
+    "size": 83918
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph19.dat",
+    "size": 82946
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph2.dat",
+    "size": 91186
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph20.dat",
+    "size": 83324
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph21.dat",
+    "size": 83954
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph22.dat",
+    "size": 85700
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph23.dat",
+    "size": 87552
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph24.dat",
+    "size": 84435
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph25.dat",
+    "size": 340524
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph26.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph27.dat",
+    "size": 86276
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph28.dat",
+    "size": 82243
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph29.dat",
+    "size": 80532
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph3.dat",
+    "size": 339751
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph30.dat",
+    "size": 80210
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph31.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph32.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph33.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph34.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph35.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph36.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph37.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph6.dat",
+    "size": 336964
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph7.dat",
+    "size": 324924
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph8.dat",
+    "size": 84402
+  },
+  {
+    "path": "missions/location0/level14/graphs/graph9.dat",
+    "size": 87158
+  },
+  {
+    "path": "missions/location0/level14/level14.dat",
+    "size": 27547
+  },
+  {
+    "path": "missions/location0/level14/level14.mtp",
+    "size": 27012
+  },
+  {
+    "path": "missions/location0/level14/lightmaps/lightmaps.res",
+    "size": 4300424
+  },
+  {
+    "path": "missions/location0/level14/mission.qvm",
+    "size": 354
+  },
+  {
+    "path": "missions/location0/level14/models/level14.res",
+    "size": 9317488
+  },
+  {
+    "path": "missions/location0/level14/objects.qvm",
+    "size": 289343
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_01.wav",
+    "size": 113182
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_02.wav",
+    "size": 7537
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_03.wav",
+    "size": 107321
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_04.wav",
+    "size": 15858
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_05.wav",
+    "size": 30546
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_06.wav",
+    "size": 46292
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_07.wav",
+    "size": 209833
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_08.wav",
+    "size": 26380
+  },
+  {
+    "path": "missions/location0/level14/sounds/_cut14_09.wav",
+    "size": 159252
+  },
+  {
+    "path": "missions/location0/level14/sounds/fan_big.wav",
+    "size": 39591
+  },
+  {
+    "path": "missions/location0/level14/sounds/fan_small.wav",
+    "size": 15228
+  },
+  {
+    "path": "missions/location0/level14/sounds/game_music.wav",
+    "size": 2179603
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_amfx1.wav",
+    "size": 87502
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_amfx2.wav",
+    "size": 129381
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_amfx3.wav",
+    "size": 235572
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_breathe1.wav",
+    "size": 62829
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_breathe2.wav",
+    "size": 62829
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_breathe3.wav",
+    "size": 40129
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glass_n.wav",
+    "size": 110218
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glassloop.wav",
+    "size": 110226
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glassloop2.wav",
+    "size": 109843
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glcrush1.wav",
+    "size": 52301
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glcrush2.wav",
+    "size": 46766
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glcrush3.wav",
+    "size": 49799
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glcrush4.wav",
+    "size": 52431
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_glcrush5.wav",
+    "size": 43412
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_office1.wav",
+    "size": 166060
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_office2.wav",
+    "size": 166429
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_runloop.wav",
+    "size": 139619
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_runseq1.wav",
+    "size": 158988
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_sentrygun.wav",
+    "size": 18566
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_steam1.wav",
+    "size": 23522
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_steam2.wav",
+    "size": 19758
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_type.wav",
+    "size": 239119
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_ugfx1.wav",
+    "size": 53398
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_ugfx2.wav",
+    "size": 30093
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_ugfx3.wav",
+    "size": 25362
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_ugfx4.wav",
+    "size": 18676
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_ugfx5.wav",
+    "size": 88974
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_vent1.wav",
+    "size": 26889
+  },
+  {
+    "path": "missions/location0/level14/sounds/m14_vent2.wav",
+    "size": 260059
+  },
+  {
+    "path": "missions/location0/level14/sounds/machinery_01.wav",
+    "size": 30612
+  },
+  {
+    "path": "missions/location0/level14/sounds/sounds.qvm",
+    "size": 6752
+  },
+  {
+    "path": "missions/location0/level14/sounds/tec.wav",
+    "size": 132117
+  },
+  {
+    "path": "missions/location0/level14/sounds/turbine.wav",
+    "size": 19458
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.bit",
+    "size": 46976
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.cmd",
+    "size": 469644
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.ctr",
+    "size": 486464
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.lmp",
+    "size": 4784
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.qvm",
+    "size": 14138
+  },
+  {
+    "path": "missions/location0/level14/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level14/textures/level14.res",
+    "size": 7892828
+  },
+  {
+    "path": "missions/location0/level2/ai/2200.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level2/ai/2201.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level2/ai/2202.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2203.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2204.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2205.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2206.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2207.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2208.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2209.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2210.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2211.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2212.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2213.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2214.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level2/ai/2215.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2216.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2220.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/2221.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level2/ai/3030.qvm",
+    "size": 349
+  },
+  {
+    "path": "missions/location0/level2/ai/3031.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level2/ai/400.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level2/ai/779.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph1.dat",
+    "size": 358550
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph11.dat",
+    "size": 81179
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph12.dat",
+    "size": 82438
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph13.dat",
+    "size": 82710
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph14.dat",
+    "size": 85803
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph15.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph17.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph2.dat",
+    "size": 80965
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph3.dat",
+    "size": 81179
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph6.dat",
+    "size": 86166
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph7.dat",
+    "size": 95148
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph8.dat",
+    "size": 88616
+  },
+  {
+    "path": "missions/location0/level2/graphs/graph9.dat",
+    "size": 100134
+  },
+  {
+    "path": "missions/location0/level2/level2.dat",
+    "size": 20632
+  },
+  {
+    "path": "missions/location0/level2/level2.mtp",
+    "size": 18728
+  },
+  {
+    "path": "missions/location0/level2/lightmaps/lightmaps.res",
+    "size": 540400
+  },
+  {
+    "path": "missions/location0/level2/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level2/models/level2.res",
+    "size": 4050224
+  },
+  {
+    "path": "missions/location0/level2/objects.qvm",
+    "size": 134362
+  },
+  {
+    "path": "missions/location0/level2/sounds/_cut02_01.wav",
+    "size": 38415
+  },
+  {
+    "path": "missions/location0/level2/sounds/_cut02_02.wav",
+    "size": 32211
+  },
+  {
+    "path": "missions/location0/level2/sounds/_cut02_03.wav",
+    "size": 188314
+  },
+  {
+    "path": "missions/location0/level2/sounds/_cut02_04.wav",
+    "size": 11700
+  },
+  {
+    "path": "missions/location0/level2/sounds/_cut02_05.wav",
+    "size": 205583
+  },
+  {
+    "path": "missions/location0/level2/sounds/_out02_01.wav",
+    "size": 55286
+  },
+  {
+    "path": "missions/location0/level2/sounds/car_01.wav",
+    "size": 154644
+  },
+  {
+    "path": "missions/location0/level2/sounds/game_music.wav",
+    "size": 1527015
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_ambience.wav",
+    "size": 381415
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_dooroc.wav",
+    "size": 25417
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_explo1.wav",
+    "size": 67091
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_explo2.wav",
+    "size": 61319
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_explo3.wav",
+    "size": 125131
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_gravel.wav",
+    "size": 55179
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_office1.wav",
+    "size": 168450
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_office2.wav",
+    "size": 166060
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_stopnoise.wav",
+    "size": 55752
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_truckstop.wav",
+    "size": 66173
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_type.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2_wind.wav",
+    "size": 111941
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2o_scream1.wav",
+    "size": 55183
+  },
+  {
+    "path": "missions/location0/level2/sounds/m2o_scream2.wav",
+    "size": 88447
+  },
+  {
+    "path": "missions/location0/level2/sounds/sounds.qvm",
+    "size": 3500
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.bit",
+    "size": 81920
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.cmd",
+    "size": 508596
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.ctr",
+    "size": 352768
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.lmp",
+    "size": 461360
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level2/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level2/textures/level2.res",
+    "size": 5164960
+  },
+  {
+    "path": "missions/location0/level3/ai/1602.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/1612.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/1622.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/1632.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/1703.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2200.qvm",
+    "size": 653
+  },
+  {
+    "path": "missions/location0/level3/ai/2201.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level3/ai/2202.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level3/ai/2203.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2204.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2205.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2206.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2207.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2208.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2209.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2210.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2211.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2212.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2213.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2214.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2215.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2216.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2220.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2221.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2222.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2223.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2224.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2225.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2226.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2227.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2228.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2229.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2230.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2231.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2232.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2233.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2234.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2235.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2236.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2237.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2238.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2239.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2240.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2241.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2242.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2243.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2244.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2245.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2246.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2247.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2248.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2249.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2250.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level3/ai/2298.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/2299.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/ai/3004.qvm",
+    "size": 429
+  },
+  {
+    "path": "missions/location0/level3/ai/3056.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level3/ai/4005.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level3/ai/4011.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level3/ai/556.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph1.dat",
+    "size": 371092
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph11.dat",
+    "size": 1358770
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph12.dat",
+    "size": 83446
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph13.dat",
+    "size": 86996
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph14.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph15.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph17.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph18.dat",
+    "size": 80408
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph19.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph2.dat",
+    "size": 1373159
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph20.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph21.dat",
+    "size": 81596
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph3.dat",
+    "size": 776058
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph6.dat",
+    "size": 81034
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph7.dat",
+    "size": 81074
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph8.dat",
+    "size": 81182
+  },
+  {
+    "path": "missions/location0/level3/graphs/graph9.dat",
+    "size": 80927
+  },
+  {
+    "path": "missions/location0/level3/level3.dat",
+    "size": 37265
+  },
+  {
+    "path": "missions/location0/level3/level3.mtp",
+    "size": 34000
+  },
+  {
+    "path": "missions/location0/level3/lightmaps/lightmaps.res",
+    "size": 3455956
+  },
+  {
+    "path": "missions/location0/level3/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level3/models/level3.res",
+    "size": 7579324
+  },
+  {
+    "path": "missions/location0/level3/objects.qvm",
+    "size": 223400
+  },
+  {
+    "path": "missions/location0/level3/sounds/_cut03_01.wav",
+    "size": 89366
+  },
+  {
+    "path": "missions/location0/level3/sounds/_cut03_02.wav",
+    "size": 105232
+  },
+  {
+    "path": "missions/location0/level3/sounds/_cut03_03.wav",
+    "size": 17906
+  },
+  {
+    "path": "missions/location0/level3/sounds/_cut03_04.wav",
+    "size": 157868
+  },
+  {
+    "path": "missions/location0/level3/sounds/_cut03_05.wav",
+    "size": 258891
+  },
+  {
+    "path": "missions/location0/level3/sounds/car_01.wav",
+    "size": 154644
+  },
+  {
+    "path": "missions/location0/level3/sounds/chopper_by_01.wav",
+    "size": 118804
+  },
+  {
+    "path": "missions/location0/level3/sounds/game_music.wav",
+    "size": 2811117
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_ambience.wav",
+    "size": 682853
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_heliaway.wav",
+    "size": 42562
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_heliint.wav",
+    "size": 30981
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_heliland.wav",
+    "size": 244739
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_heliover.wav",
+    "size": 347143
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_office1.wav",
+    "size": 151578
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_office2.wav",
+    "size": 166429
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_type.wav",
+    "size": 239119
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_wind.wav",
+    "size": 109584
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3_windland.wav",
+    "size": 73615
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_cockpit.wav",
+    "size": 226964
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_hangar.wav",
+    "size": 130835
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_pl_behind.wav",
+    "size": 440283
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_pl_by.wav",
+    "size": 285617
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_pl_loop.wav",
+    "size": 134421
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_pl_tax.wav",
+    "size": 308755
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_voiceover.wav",
+    "size": 293850
+  },
+  {
+    "path": "missions/location0/level3/sounds/m3o_wind.wav",
+    "size": 104741
+  },
+  {
+    "path": "missions/location0/level3/sounds/rain_1.wav",
+    "size": 41748
+  },
+  {
+    "path": "missions/location0/level3/sounds/rain_2.wav",
+    "size": 42324
+  },
+  {
+    "path": "missions/location0/level3/sounds/sounds.qvm",
+    "size": 3794
+  },
+  {
+    "path": "missions/location0/level3/sounds/thunder_1.wav",
+    "size": 57999
+  },
+  {
+    "path": "missions/location0/level3/sounds/thunder_2.wav",
+    "size": 52976
+  },
+  {
+    "path": "missions/location0/level3/sounds/thunder_3.wav",
+    "size": 57099
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.bit",
+    "size": 67072
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.cmd",
+    "size": 510960
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.ctr",
+    "size": 354240
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.hmp",
+    "size": 19713
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.lmp",
+    "size": 461360
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level3/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level3/textures/level3.res",
+    "size": 8874320
+  },
+  {
+    "path": "missions/location0/level4/ai/1234.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level4/ai/1235.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level4/ai/1236.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level4/ai/1237.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level4/ai/1238.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level4/ai/2099.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level4/ai/2200.qvm",
+    "size": 518
+  },
+  {
+    "path": "missions/location0/level4/ai/2201.qvm",
+    "size": 518
+  },
+  {
+    "path": "missions/location0/level4/ai/2202.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/2203.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level4/ai/2204.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level4/ai/2233.qvm",
+    "size": 432
+  },
+  {
+    "path": "missions/location0/level4/ai/3100.qvm",
+    "size": 518
+  },
+  {
+    "path": "missions/location0/level4/ai/3101.qvm",
+    "size": 518
+  },
+  {
+    "path": "missions/location0/level4/ai/3102.qvm",
+    "size": 518
+  },
+  {
+    "path": "missions/location0/level4/ai/3103.qvm",
+    "size": 442
+  },
+  {
+    "path": "missions/location0/level4/ai/3104.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/3105.qvm",
+    "size": 442
+  },
+  {
+    "path": "missions/location0/level4/ai/3200.qvm",
+    "size": 561
+  },
+  {
+    "path": "missions/location0/level4/ai/3201.qvm",
+    "size": 610
+  },
+  {
+    "path": "missions/location0/level4/ai/3202.qvm",
+    "size": 561
+  },
+  {
+    "path": "missions/location0/level4/ai/3203.qvm",
+    "size": 610
+  },
+  {
+    "path": "missions/location0/level4/ai/3204.qvm",
+    "size": 561
+  },
+  {
+    "path": "missions/location0/level4/ai/3205.qvm",
+    "size": 600
+  },
+  {
+    "path": "missions/location0/level4/ai/3206.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/3333.qvm",
+    "size": 455
+  },
+  {
+    "path": "missions/location0/level4/ai/3400.qvm",
+    "size": 455
+  },
+  {
+    "path": "missions/location0/level4/ai/3939.qvm",
+    "size": 455
+  },
+  {
+    "path": "missions/location0/level4/ai/500.qvm",
+    "size": 732
+  },
+  {
+    "path": "missions/location0/level4/ai/501.qvm",
+    "size": 608
+  },
+  {
+    "path": "missions/location0/level4/ai/502.qvm",
+    "size": 656
+  },
+  {
+    "path": "missions/location0/level4/ai/503.qvm",
+    "size": 636
+  },
+  {
+    "path": "missions/location0/level4/ai/504.qvm",
+    "size": 636
+  },
+  {
+    "path": "missions/location0/level4/ai/505.qvm",
+    "size": 636
+  },
+  {
+    "path": "missions/location0/level4/ai/506.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/507.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/508.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/509.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/510.qvm",
+    "size": 371
+  },
+  {
+    "path": "missions/location0/level4/ai/511.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/512.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/513.qvm",
+    "size": 524
+  },
+  {
+    "path": "missions/location0/level4/ai/514.qvm",
+    "size": 524
+  },
+  {
+    "path": "missions/location0/level4/ai/515.qvm",
+    "size": 524
+  },
+  {
+    "path": "missions/location0/level4/ai/516.qvm",
+    "size": 625
+  },
+  {
+    "path": "missions/location0/level4/ai/517.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/518.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/519.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/520.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/521.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/522.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/523.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/524.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/525.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/526.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level4/ai/527.qvm",
+    "size": 456
+  },
+  {
+    "path": "missions/location0/level4/ai/528.qvm",
+    "size": 524
+  },
+  {
+    "path": "missions/location0/level4/ai/529.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/530.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/531.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/532.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level4/ai/533.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level4/ai/534.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level4/ai/535.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level4/ai/540.qvm",
+    "size": 63
+  },
+  {
+    "path": "missions/location0/level4/ai/541.qvm",
+    "size": 63
+  },
+  {
+    "path": "missions/location0/level4/ai/542.qvm",
+    "size": 63
+  },
+  {
+    "path": "missions/location0/level4/ai/543.qvm",
+    "size": 63
+  },
+  {
+    "path": "missions/location0/level4/ai/544.qvm",
+    "size": 63
+  },
+  {
+    "path": "missions/location0/level4/ai/620.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/621.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/ai/622.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph1.dat",
+    "size": 350260
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph11.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph12.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph13.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph14.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph15.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph2.dat",
+    "size": 83341
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph3.dat",
+    "size": 91100
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph6.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph7.dat",
+    "size": 81488
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph8.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/graphs/graph9.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level4/level4.dat",
+    "size": 24264
+  },
+  {
+    "path": "missions/location0/level4/level4.mtp",
+    "size": 21972
+  },
+  {
+    "path": "missions/location0/level4/lightmaps/lightmaps.res",
+    "size": 1943376
+  },
+  {
+    "path": "missions/location0/level4/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level4/models/level4.res",
+    "size": 5345296
+  },
+  {
+    "path": "missions/location0/level4/objects.qvm",
+    "size": 124439
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_01.wav",
+    "size": 81174
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_02.wav",
+    "size": 39508
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_03.wav",
+    "size": 81552
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_04.wav",
+    "size": 43280
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_05.wav",
+    "size": 21876
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_06.wav",
+    "size": 45097
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_07.wav",
+    "size": 13181
+  },
+  {
+    "path": "missions/location0/level4/sounds/_cut04_08.wav",
+    "size": 264081
+  },
+  {
+    "path": "missions/location0/level4/sounds/bird_01.wav",
+    "size": 9192
+  },
+  {
+    "path": "missions/location0/level4/sounds/bird_02.wav",
+    "size": 13302
+  },
+  {
+    "path": "missions/location0/level4/sounds/bird_03.wav",
+    "size": 22882
+  },
+  {
+    "path": "missions/location0/level4/sounds/game_music.wav",
+    "size": 2179603
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4_ambience.wav",
+    "size": 432961
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4_office1.wav",
+    "size": 166416
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4_office2.wav",
+    "size": 160289
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4_type.wav",
+    "size": 239119
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4o_helioff.wav",
+    "size": 127136
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4o_helioffs.wav",
+    "size": 52511
+  },
+  {
+    "path": "missions/location0/level4/sounds/m4o_run.wav",
+    "size": 40482
+  },
+  {
+    "path": "missions/location0/level4/sounds/sounds.qvm",
+    "size": 2386
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.bit",
+    "size": 71168
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.cmd",
+    "size": 515320
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.ctr",
+    "size": 360544
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.lmp",
+    "size": 441192
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level4/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level4/textures/level4.res",
+    "size": 7391628
+  },
+  {
+    "path": "missions/location0/level5/ai/1235.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level5/ai/2200.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level5/ai/2201.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level5/ai/2202.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2203.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2204.qvm",
+    "size": 465
+  },
+  {
+    "path": "missions/location0/level5/ai/2205.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2206.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2207.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2208.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2209.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2210.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2211.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2212.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2213.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2214.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2215.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2216.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2217.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2218.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2219.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2220.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2221.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2222.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2223.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2224.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2225.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2226.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2227.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level5/ai/2228.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level5/ai/2229.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level5/ai/2230.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level5/ai/2231.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level5/ai/2232.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2233.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2234.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/2235.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level5/ai/3031.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level5/ai/3066.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level5/ai/3070.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level5/ai/3099.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph1.dat",
+    "size": 1372144
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph11.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph12.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph13.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph14.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph15.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph16.dat",
+    "size": 82582
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph2.dat",
+    "size": 80858
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph3.dat",
+    "size": 86146
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph6.dat",
+    "size": 764502
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph7.dat",
+    "size": 82942
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph8.dat",
+    "size": 80927
+  },
+  {
+    "path": "missions/location0/level5/graphs/graph9.dat",
+    "size": 349434
+  },
+  {
+    "path": "missions/location0/level5/level5.dat",
+    "size": 26114
+  },
+  {
+    "path": "missions/location0/level5/level5.mtp",
+    "size": 24708
+  },
+  {
+    "path": "missions/location0/level5/lightmaps/lightmaps.res",
+    "size": 1603788
+  },
+  {
+    "path": "missions/location0/level5/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level5/models/level5.res",
+    "size": 5393480
+  },
+  {
+    "path": "missions/location0/level5/objects.qvm",
+    "size": 165572
+  },
+  {
+    "path": "missions/location0/level5/sounds/_cut05_01.wav",
+    "size": 16300
+  },
+  {
+    "path": "missions/location0/level5/sounds/_cut05_02.wav",
+    "size": 239635
+  },
+  {
+    "path": "missions/location0/level5/sounds/_cut05_03.wav",
+    "size": 43386
+  },
+  {
+    "path": "missions/location0/level5/sounds/_cut05_04.wav",
+    "size": 305089
+  },
+  {
+    "path": "missions/location0/level5/sounds/_cut05_05.wav",
+    "size": 254797
+  },
+  {
+    "path": "missions/location0/level5/sounds/bird_01.wav",
+    "size": 9192
+  },
+  {
+    "path": "missions/location0/level5/sounds/bird_02.wav",
+    "size": 13302
+  },
+  {
+    "path": "missions/location0/level5/sounds/bird_03.wav",
+    "size": 22882
+  },
+  {
+    "path": "missions/location0/level5/sounds/game_music.wav",
+    "size": 1062163
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_ambience.wav",
+    "size": 1454224
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_bird1.wav",
+    "size": 10340
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_bird2.wav",
+    "size": 11702
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_car.wav",
+    "size": 92954
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_heliby.wav",
+    "size": 74576
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_office1.wav",
+    "size": 168450
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_office2.wav",
+    "size": 166060
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_type.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level5/sounds/m5_wind.wav",
+    "size": 109764
+  },
+  {
+    "path": "missions/location0/level5/sounds/sounds.qvm",
+    "size": 2366
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.bit",
+    "size": 104960
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.cmd",
+    "size": 513520
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.ctr",
+    "size": 357344
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.lmp",
+    "size": 468988
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level5/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level5/textures/level5.res",
+    "size": 7395788
+  },
+  {
+    "path": "missions/location0/level6/ai/2000.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2001.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2003.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level6/ai/2004.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2005.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2006.qvm",
+    "size": 419
+  },
+  {
+    "path": "missions/location0/level6/ai/2008.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level6/ai/2009.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level6/ai/2011.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2020.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2021.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2022.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2023.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2024.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2025.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2026.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/2027.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/3030.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/ai/500.qvm",
+    "size": 702
+  },
+  {
+    "path": "missions/location0/level6/ai/501.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/502.qvm",
+    "size": 637
+  },
+  {
+    "path": "missions/location0/level6/ai/503.qvm",
+    "size": 552
+  },
+  {
+    "path": "missions/location0/level6/ai/504.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level6/ai/505.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level6/ai/506.qvm",
+    "size": 679
+  },
+  {
+    "path": "missions/location0/level6/ai/507.qvm",
+    "size": 679
+  },
+  {
+    "path": "missions/location0/level6/ai/508.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/509.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/510.qvm",
+    "size": 612
+  },
+  {
+    "path": "missions/location0/level6/ai/511.qvm",
+    "size": 612
+  },
+  {
+    "path": "missions/location0/level6/ai/512.qvm",
+    "size": 612
+  },
+  {
+    "path": "missions/location0/level6/ai/513.qvm",
+    "size": 456
+  },
+  {
+    "path": "missions/location0/level6/ai/514.qvm",
+    "size": 456
+  },
+  {
+    "path": "missions/location0/level6/ai/515.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level6/ai/516.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/517.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/518.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/519.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/520.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/521.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/522.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level6/ai/523.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level6/ai/524.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level6/ai/525.qvm",
+    "size": 437
+  },
+  {
+    "path": "missions/location0/level6/ai/526.qvm",
+    "size": 1076
+  },
+  {
+    "path": "missions/location0/level6/ai/527.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level6/ai/528.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level6/ai/529.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level6/ai/530.qvm",
+    "size": 665
+  },
+  {
+    "path": "missions/location0/level6/ai/531.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/532.qvm",
+    "size": 879
+  },
+  {
+    "path": "missions/location0/level6/ai/533.qvm",
+    "size": 1076
+  },
+  {
+    "path": "missions/location0/level6/ai/534.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level6/ai/535.qvm",
+    "size": 435
+  },
+  {
+    "path": "missions/location0/level6/ai/999.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph1.dat",
+    "size": 82568
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph11.dat",
+    "size": 81251
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph12.dat",
+    "size": 88682
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph13.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph14.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph15.dat",
+    "size": 80372
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph17.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph18.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph19.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph2.dat",
+    "size": 341636
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph20.dat",
+    "size": 80408
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph21.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph22.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph23.dat",
+    "size": 80282
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph24.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph25.dat",
+    "size": 80138
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph26.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph3.dat",
+    "size": 93148
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph6.dat",
+    "size": 342900
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph7.dat",
+    "size": 83124
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph8.dat",
+    "size": 90198
+  },
+  {
+    "path": "missions/location0/level6/graphs/graph9.dat",
+    "size": 80999
+  },
+  {
+    "path": "missions/location0/level6/level6.dat",
+    "size": 43180
+  },
+  {
+    "path": "missions/location0/level6/level6.mtp",
+    "size": 37980
+  },
+  {
+    "path": "missions/location0/level6/lightmaps/lightmaps.res",
+    "size": 2316496
+  },
+  {
+    "path": "missions/location0/level6/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level6/models/level6.res",
+    "size": 8855292
+  },
+  {
+    "path": "missions/location0/level6/objects.qvm",
+    "size": 227636
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_01.wav",
+    "size": 19239
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_02.wav",
+    "size": 54676
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_03.wav",
+    "size": 27728
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_04.wav",
+    "size": 43283
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_05.wav",
+    "size": 61320
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_06.wav",
+    "size": 13169
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_07.wav",
+    "size": 29135
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_08.wav",
+    "size": 173330
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_09.wav",
+    "size": 159506
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_10.wav",
+    "size": 182163
+  },
+  {
+    "path": "missions/location0/level6/sounds/_cut06_11.wav",
+    "size": 50058
+  },
+  {
+    "path": "missions/location0/level6/sounds/bird_01.wav",
+    "size": 9192
+  },
+  {
+    "path": "missions/location0/level6/sounds/bird_02.wav",
+    "size": 13302
+  },
+  {
+    "path": "missions/location0/level6/sounds/bird_03.wav",
+    "size": 22882
+  },
+  {
+    "path": "missions/location0/level6/sounds/car_01.wav",
+    "size": 154644
+  },
+  {
+    "path": "missions/location0/level6/sounds/game_music.wav",
+    "size": 2811117
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_ambience.wav",
+    "size": 432961
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_beeps.wav",
+    "size": 223761
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_caridle.wav",
+    "size": 39845
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_har1.wav",
+    "size": 85955
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_har2.wav",
+    "size": 12349
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_office.wav",
+    "size": 224294
+  },
+  {
+    "path": "missions/location0/level6/sounds/m6_wind.wav",
+    "size": 113682
+  },
+  {
+    "path": "missions/location0/level6/sounds/sounds.qvm",
+    "size": 2630
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.bit",
+    "size": 93568
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.cmd",
+    "size": 515952
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.ctr",
+    "size": 359552
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.hmp",
+    "size": 168967
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.lmp",
+    "size": 461360
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level6/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level6/textures/level6.res",
+    "size": 8905392
+  },
+  {
+    "path": "missions/location0/level7/ai/1110.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/1212.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/1234.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/1239.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/1255.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level7/ai/1874.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level7/ai/1999.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level7/ai/2121.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/2343.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level7/ai/2387.qvm",
+    "size": 433
+  },
+  {
+    "path": "missions/location0/level7/ai/2877.qvm",
+    "size": 455
+  },
+  {
+    "path": "missions/location0/level7/ai/3154.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/3216.qvm",
+    "size": 61
+  },
+  {
+    "path": "missions/location0/level7/ai/3245.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/3344.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/3355.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/3364.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/3434.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level7/ai/500.qvm",
+    "size": 104
+  },
+  {
+    "path": "missions/location0/level7/ai/501.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/502.qvm",
+    "size": 293
+  },
+  {
+    "path": "missions/location0/level7/ai/503.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/504.qvm",
+    "size": 104
+  },
+  {
+    "path": "missions/location0/level7/ai/505.qvm",
+    "size": 277
+  },
+  {
+    "path": "missions/location0/level7/ai/506.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/507.qvm",
+    "size": 458
+  },
+  {
+    "path": "missions/location0/level7/ai/508.qvm",
+    "size": 104
+  },
+  {
+    "path": "missions/location0/level7/ai/509.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/510.qvm",
+    "size": 507
+  },
+  {
+    "path": "missions/location0/level7/ai/511.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/512.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level7/ai/513.qvm",
+    "size": 422
+  },
+  {
+    "path": "missions/location0/level7/ai/514.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/515.qvm",
+    "size": 422
+  },
+  {
+    "path": "missions/location0/level7/ai/516.qvm",
+    "size": 422
+  },
+  {
+    "path": "missions/location0/level7/ai/517.qvm",
+    "size": 464
+  },
+  {
+    "path": "missions/location0/level7/ai/518.qvm",
+    "size": 480
+  },
+  {
+    "path": "missions/location0/level7/ai/519.qvm",
+    "size": 257
+  },
+  {
+    "path": "missions/location0/level7/ai/520.qvm",
+    "size": 261
+  },
+  {
+    "path": "missions/location0/level7/ai/521.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/522.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/523.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/524.qvm",
+    "size": 234
+  },
+  {
+    "path": "missions/location0/level7/ai/525.qvm",
+    "size": 277
+  },
+  {
+    "path": "missions/location0/level7/ai/526.qvm",
+    "size": 266
+  },
+  {
+    "path": "missions/location0/level7/ai/528.qvm",
+    "size": 400
+  },
+  {
+    "path": "missions/location0/level7/ai/529.qvm",
+    "size": 605
+  },
+  {
+    "path": "missions/location0/level7/ai/530.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level7/ai/531.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level7/ai/532.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level7/ai/533.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level7/ai/534.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level7/ai/535.qvm",
+    "size": 638
+  },
+  {
+    "path": "missions/location0/level7/ai/536.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level7/ai/580.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph1.dat",
+    "size": 80570
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph11.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph12.dat",
+    "size": 82260
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph13.dat",
+    "size": 83594
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph14.dat",
+    "size": 96654
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph15.dat",
+    "size": 80783
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph17.dat",
+    "size": 80660
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph18.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph19.dat",
+    "size": 89315
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph2.dat",
+    "size": 80606
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph20.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph21.dat",
+    "size": 81722
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph22.dat",
+    "size": 84494
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph23.dat",
+    "size": 82406
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph24.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph25.dat",
+    "size": 81452
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph26.dat",
+    "size": 81884
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph27.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph28.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph29.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph3.dat",
+    "size": 80498
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph30.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph31.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph32.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph33.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph34.dat",
+    "size": 81092
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph6.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph7.dat",
+    "size": 81072
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph8.dat",
+    "size": 80696
+  },
+  {
+    "path": "missions/location0/level7/graphs/graph9.dat",
+    "size": 80389
+  },
+  {
+    "path": "missions/location0/level7/level7.dat",
+    "size": 45694
+  },
+  {
+    "path": "missions/location0/level7/level7.mtp",
+    "size": 40592
+  },
+  {
+    "path": "missions/location0/level7/lightmaps/lightmaps.res",
+    "size": 1898420
+  },
+  {
+    "path": "missions/location0/level7/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level7/models/level7.res",
+    "size": 8316764
+  },
+  {
+    "path": "missions/location0/level7/objects.qvm",
+    "size": 291790
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_01.wav",
+    "size": 71829
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_02.wav",
+    "size": 35910
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_03.wav",
+    "size": 143736
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_04.wav",
+    "size": 35423
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_05.wav",
+    "size": 5463
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_06.wav",
+    "size": 4317
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_07.wav",
+    "size": 29445
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_08.wav",
+    "size": 43723
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_09.wav",
+    "size": 17043
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_10.wav",
+    "size": 14515
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_11.wav",
+    "size": 8164
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_12.wav",
+    "size": 48596
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_13.wav",
+    "size": 83221
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_14.wav",
+    "size": 14190
+  },
+  {
+    "path": "missions/location0/level7/sounds/_cut07_15.wav",
+    "size": 39884
+  },
+  {
+    "path": "missions/location0/level7/sounds/game_music.wav",
+    "size": 3196315
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_ambience.wav",
+    "size": 381415
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_baltochat.wav",
+    "size": 64385
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helialarm.wav",
+    "size": 48018
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helicrash.wav",
+    "size": 413711
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helidown1.wav",
+    "size": 147401
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helidown2.wav",
+    "size": 142127
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_heliinside.wav",
+    "size": 65052
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_heliloop.wav",
+    "size": 90421
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helinoise.wav",
+    "size": 111064
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_helistart.wav",
+    "size": 106958
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_idle1.wav",
+    "size": 24481
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_idle2.wav",
+    "size": 24442
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_missileaway.wav",
+    "size": 71553
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_missileimp.wav",
+    "size": 41989
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_missileloop.wav",
+    "size": 37836
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_planeloop.wav",
+    "size": 135513
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_truckaway.wav",
+    "size": 200261
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_walksnow1.wav",
+    "size": 50830
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_walksnow2.wav",
+    "size": 50830
+  },
+  {
+    "path": "missions/location0/level7/sounds/m7_wind.wav",
+    "size": 166427
+  },
+  {
+    "path": "missions/location0/level7/sounds/sounds.qvm",
+    "size": 4747
+  },
+  {
+    "path": "missions/location0/level7/sounds/wind_cold_1.wav",
+    "size": 151323
+  },
+  {
+    "path": "missions/location0/level7/sounds/wind_cold_fx_1.wav",
+    "size": 23060
+  },
+  {
+    "path": "missions/location0/level7/sounds/wind_cold_fx_2.wav",
+    "size": 40446
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.bit",
+    "size": 17920
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.cmd",
+    "size": 578888
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.ctr",
+    "size": 396384
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.lmp",
+    "size": 448952
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.qvm",
+    "size": 13713
+  },
+  {
+    "path": "missions/location0/level7/terrain/terrain.tex",
+    "size": 393868
+  },
+  {
+    "path": "missions/location0/level7/textures/level7.res",
+    "size": 8429144
+  },
+  {
+    "path": "missions/location0/level8/ai/1505.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level8/ai/2222.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level8/ai/3334.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/3336.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level8/ai/3338.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/4005.qvm",
+    "size": 394
+  },
+  {
+    "path": "missions/location0/level8/ai/414.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/500.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level8/ai/501.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level8/ai/502.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level8/ai/503.qvm",
+    "size": 621
+  },
+  {
+    "path": "missions/location0/level8/ai/504.qvm",
+    "size": 469
+  },
+  {
+    "path": "missions/location0/level8/ai/505.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/506.qvm",
+    "size": 388
+  },
+  {
+    "path": "missions/location0/level8/ai/507.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/508.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/509.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level8/ai/510.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level8/ai/511.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level8/ai/512.qvm",
+    "size": 437
+  },
+  {
+    "path": "missions/location0/level8/ai/513.qvm",
+    "size": 528
+  },
+  {
+    "path": "missions/location0/level8/ai/514.qvm",
+    "size": 388
+  },
+  {
+    "path": "missions/location0/level8/ai/515.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/516.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/517.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/518.qvm",
+    "size": 605
+  },
+  {
+    "path": "missions/location0/level8/ai/519.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/525.qvm",
+    "size": 439
+  },
+  {
+    "path": "missions/location0/level8/ai/526.qvm",
+    "size": 439
+  },
+  {
+    "path": "missions/location0/level8/ai/527.qvm",
+    "size": 439
+  },
+  {
+    "path": "missions/location0/level8/ai/528.qvm",
+    "size": 353
+  },
+  {
+    "path": "missions/location0/level8/ai/529.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/530.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/531.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/532.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/534.qvm",
+    "size": 477
+  },
+  {
+    "path": "missions/location0/level8/ai/535.qvm",
+    "size": 603
+  },
+  {
+    "path": "missions/location0/level8/ai/536.qvm",
+    "size": 529
+  },
+  {
+    "path": "missions/location0/level8/ai/537.qvm",
+    "size": 605
+  },
+  {
+    "path": "missions/location0/level8/ai/538.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/539.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/540.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/541.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level8/ai/542.qvm",
+    "size": 417
+  },
+  {
+    "path": "missions/location0/level8/ai/543.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/544.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/545.qvm",
+    "size": 552
+  },
+  {
+    "path": "missions/location0/level8/ai/546.qvm",
+    "size": 605
+  },
+  {
+    "path": "missions/location0/level8/ai/547.qvm",
+    "size": 605
+  },
+  {
+    "path": "missions/location0/level8/ai/548.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level8/ai/549.qvm",
+    "size": 470
+  },
+  {
+    "path": "missions/location0/level8/ai/553.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/559.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/ai/666.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph1.dat",
+    "size": 83352
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph11.dat",
+    "size": 85988
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph12.dat",
+    "size": 81567
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph13.dat",
+    "size": 80475
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph14.dat",
+    "size": 80605
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph15.dat",
+    "size": 84488
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph1503.dat",
+    "size": 80246
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph16.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph17.dat",
+    "size": 81254
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph18.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph19.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph2.dat",
+    "size": 84075
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph20.dat",
+    "size": 80085
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph21.dat",
+    "size": 80534
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph22.dat",
+    "size": 85542
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph23.dat",
+    "size": 80833
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph24.dat",
+    "size": 83612
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph25.dat",
+    "size": 81992
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph26.dat",
+    "size": 88706
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph27.dat",
+    "size": 81020
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph28.dat",
+    "size": 82550
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph29.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph3.dat",
+    "size": 84292
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph30.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph31.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph32.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph33.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph34.dat",
+    "size": 81866
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph35.dat",
+    "size": 81576
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph6.dat",
+    "size": 81326
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph7.dat",
+    "size": 80256
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph8.dat",
+    "size": 84042
+  },
+  {
+    "path": "missions/location0/level8/graphs/graph9.dat",
+    "size": 81632
+  },
+  {
+    "path": "missions/location0/level8/level8.dat",
+    "size": 48032
+  },
+  {
+    "path": "missions/location0/level8/level8.mtp",
+    "size": 43352
+  },
+  {
+    "path": "missions/location0/level8/lightmaps/lightmaps.res",
+    "size": 3116372
+  },
+  {
+    "path": "missions/location0/level8/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level8/models/level8.res",
+    "size": 9232008
+  },
+  {
+    "path": "missions/location0/level8/objects.qvm",
+    "size": 234887
+  },
+  {
+    "path": "missions/location0/level8/sounds/_cut08_01.wav",
+    "size": 140520
+  },
+  {
+    "path": "missions/location0/level8/sounds/_cut08_02.wav",
+    "size": 479552
+  },
+  {
+    "path": "missions/location0/level8/sounds/base_amb_01.wav",
+    "size": 377841
+  },
+  {
+    "path": "missions/location0/level8/sounds/game_music.wav",
+    "size": 4332997
+  },
+  {
+    "path": "missions/location0/level8/sounds/m8_airraid.wav",
+    "size": 73682
+  },
+  {
+    "path": "missions/location0/level8/sounds/m8_ambience.wav",
+    "size": 682853
+  },
+  {
+    "path": "missions/location0/level8/sounds/m8_drive.wav",
+    "size": 155138
+  },
+  {
+    "path": "missions/location0/level8/sounds/m8_idle1.wav",
+    "size": 24481
+  },
+  {
+    "path": "missions/location0/level8/sounds/sounds.qvm",
+    "size": 2574
+  },
+  {
+    "path": "missions/location0/level8/sounds/truck_away_01.wav",
+    "size": 79487
+  },
+  {
+    "path": "missions/location0/level8/sounds/truck_stopg_01.wav",
+    "size": 98153
+  },
+  {
+    "path": "missions/location0/level8/sounds/wind_cold_1.wav",
+    "size": 151323
+  },
+  {
+    "path": "missions/location0/level8/sounds/wind_cold_fx_1.wav",
+    "size": 23060
+  },
+  {
+    "path": "missions/location0/level8/sounds/wind_cold_fx_2.wav",
+    "size": 40446
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.bit",
+    "size": 55936
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.cmd",
+    "size": 593824
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.ctr",
+    "size": 406592
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.hmp",
+    "size": 786334
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.lmp",
+    "size": 441192
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.qvm",
+    "size": 13713
+  },
+  {
+    "path": "missions/location0/level8/terrain/terrain.tex",
+    "size": 393868
+  },
+  {
+    "path": "missions/location0/level8/textures/level8.res",
+    "size": 9313704
+  },
+  {
+    "path": "missions/location0/level9/ai/1056.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level9/ai/1077.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/1234.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level9/ai/1235.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level9/ai/2088.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level9/ai/2099.qvm",
+    "size": 393
+  },
+  {
+    "path": "missions/location0/level9/ai/500.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/501.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/502.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level9/ai/503.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/504.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/505.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/506.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/507.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/508.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/509.qvm",
+    "size": 388
+  },
+  {
+    "path": "missions/location0/level9/ai/510.qvm",
+    "size": 486
+  },
+  {
+    "path": "missions/location0/level9/ai/511.qvm",
+    "size": 534
+  },
+  {
+    "path": "missions/location0/level9/ai/512.qvm",
+    "size": 503
+  },
+  {
+    "path": "missions/location0/level9/ai/513.qvm",
+    "size": 528
+  },
+  {
+    "path": "missions/location0/level9/ai/514.qvm",
+    "size": 528
+  },
+  {
+    "path": "missions/location0/level9/ai/515.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/516.qvm",
+    "size": 567
+  },
+  {
+    "path": "missions/location0/level9/ai/517.qvm",
+    "size": 549
+  },
+  {
+    "path": "missions/location0/level9/ai/518.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/519.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/520.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/521.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/522.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/523.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/524.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/525.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/526.qvm",
+    "size": 340
+  },
+  {
+    "path": "missions/location0/level9/ai/527.qvm",
+    "size": 416
+  },
+  {
+    "path": "missions/location0/level9/ai/528.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level9/ai/529.qvm",
+    "size": 604
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph1.dat",
+    "size": 83198
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph11.dat",
+    "size": 82118
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph12.dat",
+    "size": 92060
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph13.dat",
+    "size": 81254
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph14.dat",
+    "size": 80641
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph15.dat",
+    "size": 82028
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph16.dat",
+    "size": 81380
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph17.dat",
+    "size": 82532
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph18.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph19.dat",
+    "size": 82982
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph2.dat",
+    "size": 80459
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph20.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph21.dat",
+    "size": 80120
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph3.dat",
+    "size": 80459
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph6.dat",
+    "size": 83144
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph7.dat",
+    "size": 96104
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph8.dat",
+    "size": 80534
+  },
+  {
+    "path": "missions/location0/level9/graphs/graph9.dat",
+    "size": 341574
+  },
+  {
+    "path": "missions/location0/level9/level9.dat",
+    "size": 31540
+  },
+  {
+    "path": "missions/location0/level9/level9.mtp",
+    "size": 28416
+  },
+  {
+    "path": "missions/location0/level9/lightmaps/lightmaps.res",
+    "size": 1396500
+  },
+  {
+    "path": "missions/location0/level9/mission.qvm",
+    "size": 314
+  },
+  {
+    "path": "missions/location0/level9/models/level9.res",
+    "size": 6328412
+  },
+  {
+    "path": "missions/location0/level9/objects.qvm",
+    "size": 186978
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_01.wav",
+    "size": 73156
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_02.wav",
+    "size": 47571
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_03.wav",
+    "size": 57176
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_04.wav",
+    "size": 65170
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_05.wav",
+    "size": 174144
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_06.wav",
+    "size": 98445
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_07.wav",
+    "size": 144402
+  },
+  {
+    "path": "missions/location0/level9/sounds/_cut09_08.wav",
+    "size": 189862
+  },
+  {
+    "path": "missions/location0/level9/sounds/car_01.wav",
+    "size": 154644
+  },
+  {
+    "path": "missions/location0/level9/sounds/game_music.wav",
+    "size": 1653739
+  },
+  {
+    "path": "missions/location0/level9/sounds/m9_ambience.wav",
+    "size": 432961
+  },
+  {
+    "path": "missions/location0/level9/sounds/m9_beeps.wav",
+    "size": 241683
+  },
+  {
+    "path": "missions/location0/level9/sounds/m9_office1.wav",
+    "size": 224294
+  },
+  {
+    "path": "missions/location0/level9/sounds/m9_type1.wav",
+    "size": 240498
+  },
+  {
+    "path": "missions/location0/level9/sounds/rain_1.wav",
+    "size": 41748
+  },
+  {
+    "path": "missions/location0/level9/sounds/rain_2.wav",
+    "size": 42324
+  },
+  {
+    "path": "missions/location0/level9/sounds/sounds.qvm",
+    "size": 1828
+  },
+  {
+    "path": "missions/location0/level9/sounds/thunder_1.wav",
+    "size": 57999
+  },
+  {
+    "path": "missions/location0/level9/sounds/thunder_2.wav",
+    "size": 52976
+  },
+  {
+    "path": "missions/location0/level9/sounds/thunder_3.wav",
+    "size": 57099
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.bit",
+    "size": 61312
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.cmd",
+    "size": 539100
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.ctr",
+    "size": 371040
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.hmp",
+    "size": 152841
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.lmp",
+    "size": 469120
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.qvm",
+    "size": 12733
+  },
+  {
+    "path": "missions/location0/level9/terrain/terrain.tex",
+    "size": 590764
+  },
+  {
+    "path": "missions/location0/level9/textures/level9.res",
+    "size": 6951152
+  },
+  {
+    "path": "physicsobj/cars/APC/car.qvm",
+    "size": 1590
+  },
+  {
+    "path": "physicsobj/cars/Limo/car.qvm",
+    "size": 1005
+  },
+  {
+    "path": "physicsobj/cars/buggy/car.qvm",
+    "size": 1214
+  },
+  {
+    "path": "physicsobj/cars/cutscene_truck/car.qvm",
+    "size": 896
+  },
+  {
+    "path": "physicsobj/cars/t80/car.qvm",
+    "size": 1740
+  },
+  {
+    "path": "physicsobj/cars/truck/car.qvm",
+    "size": 1101
+  },
+  {
+    "path": "physicsobj/helis/bell/heli.qvm",
+    "size": 1754
+  },
+  {
+    "path": "physicsobj/helis/mil/heli.qvm",
+    "size": 1362
+  },
+  {
+    "path": "physicsobj/missiles/HIND/missile.qvm",
+    "size": 761
+  },
+  {
+    "path": "physicsobj/missiles/RPG18/missile.qvm",
+    "size": 754
+  },
+  {
+    "path": "physicsobj/missiles/cgm2/missile.qvm",
+    "size": 754
+  },
+  {
+    "path": "physicsobj/physicsobj.qvm",
+    "size": 2820
+  },
+  {
+    "path": "physicsobj/planes/CutSceneMissile/plane.qvm",
+    "size": 656
+  },
+  {
+    "path": "physicsobj/planes/JSF/plane.qvm",
+    "size": 989
+  },
+  {
+    "path": "physicsobj/planes/SU27/plane.qvm",
+    "size": 656
+  },
+  {
+    "path": "physicsobj/trains/train.qvm",
+    "size": 293
+  },
+  {
+    "path": "physicsobj/weapons/physicsobj.qvm",
+    "size": 446
+  },
+  {
+    "path": "screens/game/status/status.res",
+    "size": 686436
+  },
+  {
+    "path": "screens/intro/eidos.avi",
+    "size": 1442304
+  },
+  {
+    "path": "screens/intro/eidos.wav",
+    "size": 721791
+  },
+  {
+    "path": "screens/intro/font3.fnt",
+    "size": 137892
+  },
+  {
+    "path": "screens/intro/font4.fnt",
+    "size": 72356
+  },
+  {
+    "path": "screens/intro/innerloop.avi",
+    "size": 590098
+  },
+  {
+    "path": "screens/intro/innerloop.wav",
+    "size": 587797
+  },
+  {
+    "path": "screens/intro/intro_eu.avi",
+    "size": 23348640
+  },
+  {
+    "path": "screens/intro/intro_eu.qvm",
+    "size": 738
+  },
+  {
+    "path": "screens/intro/intro_eu.wav",
+    "size": 5330241
+  },
+  {
+    "path": "screens/intro/outro.avi",
+    "size": 10996312
+  },
+  {
+    "path": "screens/intro/outro.qvm",
+    "size": 907
+  },
+  {
+    "path": "screens/intro/outro.wav",
+    "size": 2803311
+  },
+  {
+    "path": "screens/intro/vp.avi",
+    "size": 2445312
+  },
+  {
+    "path": "screens/intro/vp.wav",
+    "size": 122005
+  },
+  {
+    "path": "weapons/AK47/weapon.qvm",
+    "size": 781
+  },
+  {
+    "path": "weapons/APC/weapon.qvm",
+    "size": 750
+  },
+  {
+    "path": "weapons/BINOCULARS/weapon.qvm",
+    "size": 791
+  },
+  {
+    "path": "weapons/COLTANACONDA/weapon.qvm",
+    "size": 777
+  },
+  {
+    "path": "weapons/DESERTEAGLE/weapon.qvm",
+    "size": 783
+  },
+  {
+    "path": "weapons/DRAGUNOV/weapon.qvm",
+    "size": 834
+  },
+  {
+    "path": "weapons/FLASHBANG/weapon.qvm",
+    "size": 769
+  },
+  {
+    "path": "weapons/GLOCK/weapon.qvm",
+    "size": 790
+  },
+  {
+    "path": "weapons/GRENADE/weapon.qvm",
+    "size": 770
+  },
+  {
+    "path": "weapons/JACKHAMMER/weapon.qvm",
+    "size": 800
+  },
+  {
+    "path": "weapons/KNIFE/weapon.qvm",
+    "size": 742
+  },
+  {
+    "path": "weapons/M16A2/weapon.qvm",
+    "size": 801
+  },
+  {
+    "path": "weapons/M2HB/weapon.qvm",
+    "size": 760
+  },
+  {
+    "path": "weapons/MEDIPACK/weapon.qvm",
+    "size": 775
+  },
+  {
+    "path": "weapons/MIL/weapon.qvm",
+    "size": 750
+  },
+  {
+    "path": "weapons/MINIMI/weapon.qvm",
+    "size": 785
+  },
+  {
+    "path": "weapons/MP5SD/weapon.qvm",
+    "size": 807
+  },
+  {
+    "path": "weapons/PROXIMITYMINE/weapon.qvm",
+    "size": 842
+  },
+  {
+    "path": "weapons/RPG18/weapon.qvm",
+    "size": 755
+  },
+  {
+    "path": "weapons/SENTRYGUN/weapon.qvm",
+    "size": 772
+  },
+  {
+    "path": "weapons/SPAS12/weapon.qvm",
+    "size": 790
+  },
+  {
+    "path": "weapons/UZI/weapon.qvm",
+    "size": 762
+  },
+  {
+    "path": "weapons/UZIX2/weapon.qvm",
+    "size": 770
+  },
+  {
+    "path": "weapons/t80/weapon.qvm",
+    "size": 749
+  },
+  {
+    "path": "weapons/weaponconfig.qvm",
+    "size": 17801
+  }
+]

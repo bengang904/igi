@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="coi-serviceworker.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Project I.G.I.</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+       :root {
+      --bg-color: #171c20;
+      --dark-bg: #2d353e;
+      --accent: #a4b9be;
+      --text-main: #f0f0f0;
+      --line: rgba(255, 255, 255, 0.1);
+      --fg: var(--text-main);
+      --muted: #a4b9be;
+      --faint: #6f8576;
+      --accent-hi: #5bf094;
+    }
+
+    *, ::after, ::before {
+      box-sizing: border-box;
+    }
+
+    :focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: "Zalando Sans Expanded", Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body.loading-gate #home-view { display: none !important; }
+    body.loading-gate #game-container { display: block !important; }
+    body.loading-gate #status-overlay { display: flex !important; }
+
+    .screen-view {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      background: var(--bg-color);
+      z-index: 50;
+      overflow-y: auto;
+    }
+
+    .center-content {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+      margin: auto;
+    }
+
+    .logo-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .header-title {
+      font-size: 3.2rem;
+      margin: 0;
+      color: var(--text-main);
+      letter-spacing: 1px;
+      line-height: 1.1;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .menu-box {
+      background: var(--dark-bg);
+      border-radius: 5px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      gap: 8px;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom, #5c6f82 0%, #43515e 50%, #2f3a44 100%);
+      border: 1px solid #1f262c;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 2px 3px rgba(0, 0, 0, .2);
+      transition: .2s ease-in-out;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: inherit;
+    }
+
+    .action-btn:hover {
+      background: linear-gradient(to bottom, #6d8296 0%, #4e5e6d 50%, #3a4753 100%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 4px 6px rgba(0, 0, 0, .3);
+      transform: translateY(-2px);
+    }
+
+    .action-btn:active {
+      background: linear-gradient(to bottom, #2f3a44 0%, #43515e 100%);
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, .4);
+      transform: translateY(1px);
+    }
+
+    .action-btn:disabled {
+      opacity: .4;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .main-action-btn {
+      width: 100%;
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+
+    .btn-green {
+      background: linear-gradient(to bottom, #5c8264 0%, #3a443a 100%);
+    }
+
+    .btn-green:hover {
+      background: linear-gradient(to bottom, #6d9876 0%, #485648 100%);
+    }
+
+    .btn-red {
+      background: linear-gradient(to bottom, #a34c4c 0%, #7e3636 100%);
+    }
+
+    .btn-red:hover {
+      background: linear-gradient(to bottom, #b95656 0%, #924040 100%);
+    }
+
+    .status-msg {
+      display: none;
+      margin-top: 16px;
+      font-size: 0.88rem;
+      line-height: 1.4;
+      color: var(--accent);
+      transition: opacity .2s;
+    }
+
+    .status-msg:not(:empty) {
+      display: block;
+    }
+
+    .status-msg.success {
+      color: #6d9876;
+      font-weight: 700;
+    }
+
+    .status-msg.error {
+      color: #b95656;
+      font-weight: 700;
+    }
+
+    /* Modal Warning Dialog */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.8);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 20px;
+    }
+
+    .modal-box {
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+      gap: 16px;
+    }
+
+    .modal-title {
+      font-size: 1.5rem;
+      margin: 0;
+      color: var(--text-main);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .modal-text {
+      color: var(--text-main);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .modal-warning {
+      color: #e5a45b;
+      font-size: 0.88rem;
+      background: rgba(229, 164, 91, 0.1);
+      border: 1px solid rgba(229, 164, 91, 0.3);
+      border-radius: 4px;
+      padding: 12px;
+      margin: 4px 0;
+      line-height: 1.4;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 6px;
+    }
+
+    .modal-actions button {
+      flex: 1;
+    }
+
+    /* Settings Dialog */
+    .setting-row {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      text-align: left;
+    }
+
+    .setting-row-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3px 0;
+    }
+
+    .setting-subnote {
+      color: var(--accent);
+      font-size: 0.78rem;
+      line-height: 1.35;
+      margin-top: 2px;
+      opacity: 0.85;
+    }
+
+    .setting-select {
+      padding: 7px 10px;
+      font-size: 0.82rem;
+      background: #1f262c;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+      color: #fff;
+      font-family: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .setting-select:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    .setting-label {
+      color: var(--accent);
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .setting-options {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .opt-btn {
+      flex: 1;
+      padding: 9px 10px;
+      font-size: 0.85rem;
+      background: #1f262c;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 4px;
+      color: #8898a6;
+      cursor: pointer;
+      font-family: inherit;
+      font-weight: 700;
+      transition: all .15s ease-in-out;
+      text-align: center;
+    }
+
+    .opt-btn:hover {
+      background: #2b353e;
+      color: #fff;
+    }
+
+    .opt-btn.active {
+      background: linear-gradient(to bottom, #5c6f82 0%, #43515e 50%, #2f3a44 100%);
+      border-color: var(--accent);
+      color: #fff;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Game and Loading Container */
+    #game-container {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+      z-index: 10;
+      display: none;
+    }
+
+    #stage {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: none;
+    }
+
+    .status-overlay {
+      position: absolute;
+      inset: 0;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+      background: var(--bg-color);
+      cursor: default;
+      pointer-events: auto;
+      padding: 20px;
+    }
+
+    .loading-container {
+      width: 100%;
+      max-width: 440px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .loading-text {
+      font-size: 2.5rem;
+      margin: 0 0 10px;
+      color: var(--text-main);
+      text-shadow: 2px 2px 0 #000;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .loading-subtext {
+      color: var(--accent);
+      font-size: .9rem;
+      margin: 0 0 20px;
+      line-height: 1.3;
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 20px;
+      background: var(--bg-color);
+      border: 2px solid var(--dark-bg);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(to bottom, #5c6f82 0%, #43515e 50%, #2f3a44 100%);
+      border-right: 2px solid var(--accent);
+      transition: width .15s ease-out;
+    }
+
+    .progress-percent {
+      color: var(--accent);
+      margin-top: 8px;
+      font-weight: 700;
+    }
+
+    .hidden { display: none !important; }
+
+    /* In-game gear & fullscreen buttons (hidden per launcher UI design) */
+    #kbd-show, #fs {
+      display: none !important;
+    }
+
+    #soundtip {
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 30;
+      background: rgba(23, 28, 32, 0.9);
+      color: var(--accent);
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      font-size: 13px;
+    }
+
+    /* Key bindings customization */
+    .bind-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .bind-label { color: var(--accent); font-size: 0.85rem; }
+    .kbd-rebind {
+      background: #1f262c;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 4px;
+      color: #fff;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: monospace;
+      min-width: 60px;
+      text-align: center;
+    }
+    .kbd-rebind:hover, .kbd-rebind.capturing {
+      background: #3b4652;
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* Mobile / touch styling */
+  body.coarse #stage, body.coarse #stage:fullscreen { position: fixed; inset: 0; width: auto; height: auto; aspect-ratio: auto;
+    border-radius: 0; box-shadow: none; }
+  /* no page fullscreen (iPhone Safari): the stage keeps the largest viewport's size, so the browser's toolbars
+     sliding in over the page (a swipe from the top edge, as when looking down) don't resize the game's picture */
+  body.nofs #stage { inset: auto; top: 0; left: 0; width: 100vw; height: 100vh; height: 100lvh; }
+  #tfailed { position: absolute; left: 50%; top: 7%; transform: translateX(-50%); z-index: 4; pointer-events: none;
+    max-width: 92%; padding: 8px 14px; border-radius: 8px; background: rgba(0, 0, 0, .78); color: #fff;
+    font: 600 14px/1.3 inherit; text-align: center; }
+  #rotate { display: none; }
+  @media (orientation: portrait) {
+    body.touch #rotate { display: grid; place-items: center; position: absolute; inset: 0; z-index: 5; padding: 24px;
+      background: #000; color: #fff; font-size: 17px; text-align: center; }
+  }
+  #touch { position: absolute; inset: 0; z-index: 3; touch-action: none; user-select: none; -webkit-user-select: none;
+    -webkit-touch-callout: none; }
+  #touch .t-look { position: absolute; inset: 0; }
+  /* Layout in the style of mobile shooters (PUBG): the stick bottom-left with WALK above it and a second FIRE
+     above-right of it; a big FIRE bottom-right with JUMP above, CROUCH / SCOPE to its left, USE / RELOAD further
+     in, PEEK up the right edge, WEAPON at the bottom centre; MENU, MAP top-left and the gear, BINO, +/- top-right.
+     --u is the button unit, --f the fire button, --g the gap, --sr/--sl the safe-area margins. */
+  /* --k scales every control (the layout editor's Size), --a is their opacity; --sk the stick, --tb the top bar. */
+  #touch { --k: 1; --a: 1; --u: calc(clamp(48px, 14vmin, 64px) * var(--k)); --f: calc(clamp(80px, 24vmin, 108px) * var(--k)); --g: 10px;
+    --sk: calc(clamp(120px, 36vmin, 170px) * var(--k)); --tb: calc(clamp(44px, 12vmin, 56px) * var(--k));
+    --sr: max(18px, env(safe-area-inset-right)); --sl: max(18px, env(safe-area-inset-left)); --sb: 20px;
+    --st: max(10px, env(safe-area-inset-top)); }
+  #touch.off { display: none; }
+  #touch .t-stick { position: absolute; left: var(--sl); bottom: var(--sb);
+    width: calc(var(--sk) * var(--bk, 1)); aspect-ratio: 1; border-radius: 50%; opacity: var(--a);
+    background: rgba(255, 255, 255, .08); border: 2px solid rgba(255, 255, 255, .22); }
+  #touch .t-knob { position: absolute; inset: 30%; border-radius: 50%; background: rgba(255, 255, 255, .35);
+    border: 2px solid rgba(255, 255, 255, .5); pointer-events: none; }
+  /* the sprint lock: a running figure well above the stick with a dotted line up to it, shown while the stick
+     is pushed forward; the thumb sliding onto it locks running (touch.js), and it stays lit while locked */
+  #touch .t-lock { position: absolute; left: 50%; top: calc(-1 * var(--sk) * .8); transform: translateX(-50%); width: calc(var(--sk) * .5); height: calc(var(--sk) * .5);
+    display: grid; place-items: center; border-radius: 50%; border: 2px solid rgba(255, 255, 255, .45); background: rgba(0, 0, 0, .5);
+    opacity: 0; transition: opacity .15s ease, transform .15s ease; pointer-events: none; }
+  #touch .t-lock span { font-size: calc(var(--sk) * .26); line-height: 1; filter: grayscale(1) brightness(1.7); }
+  #touch .t-stick::before { content: ""; position: absolute; left: 50%; top: calc(-1 * var(--sk) * .3); height: calc(var(--sk) * .3);
+    border-left: 3px dotted rgba(255, 255, 255, .55); opacity: 0; transition: opacity .15s ease; }
+  #touch .t-stick.fwd .t-lock, #touch .t-stick.fwd::before { opacity: .85; }
+  #touch .t-stick.locked .t-lock, #touch .t-stick.locked::before { opacity: 1; }
+  #touch .t-stick.locked .t-lock { background: rgba(52, 184, 102, .65); border-color: rgba(120, 230, 160, .95); transform: translateX(-50%) scale(1.1); }
+  #touch .t-stick.locked { border-color: rgba(120, 230, 160, .6); }
+  #touch .t-stick.locked .t-knob { background: rgba(52, 184, 102, .55); }
+  #touch .t-btn { position: absolute; display: grid; place-items: center; align-content: center; padding: 0;
+    width: calc(var(--u) * var(--bk, 1)); aspect-ratio: 1; border-radius: 50%; touch-action: none; opacity: var(--a);
+    border: 2px solid rgba(255, 255, 255, .3); background: rgba(0, 0, 0, .35); color: rgba(255, 255, 255, .9);
+    font: 700 clamp(9px, 2.6vmin, 11px)/1.1 ui-sans-serif, system-ui, -apple-system, sans-serif; letter-spacing: .02em;
+    transition: opacity .25s ease; }
+  #touch .t-btn small { font-size: .8em; font-weight: 600; opacity: .7; }
+  #touch .t-btn.on { background: rgba(52, 184, 102, .55); border-color: rgba(120, 230, 160, .8); }
+  #touch.menus .t-btn:not(.b-menu):not(.b-gear), #touch.menus .t-stick { opacity: calc(var(--a) * .35); }
+  /* the layout editor: the overlay over everything (the boot cover too), every control draggable, a bar on top */
+  #touch.edit { display: block; z-index: 8; background: rgba(0, 0, 0, .6); }
+  #touch.edit .t-btn, #touch.edit .t-stick, #touch.edit.menus .t-btn:not(.b-menu):not(.b-gear), #touch.edit.menus .t-stick {
+    opacity: var(--a); outline: 2px dashed rgba(255, 255, 255, .55); outline-offset: 3px; transition: none; }
+  #touch.edit .t-look { display: none; }
+  /* right cluster */
+  #touch .b-fire { width: calc(var(--f) * var(--bk, 1)); right: var(--sr); bottom: var(--sb);
+    background: rgba(210, 58, 47, .4); border-color: rgba(255, 150, 140, .5); font-size: clamp(12px, 3.4vmin, 15px);
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+  #touch .b-jump { right: calc(var(--sr) + (var(--f) - var(--u)) / 2); bottom: calc(var(--sb) + var(--f) + var(--g)); }
+  #touch .b-peek { right: calc(var(--sr) + (var(--f) - var(--u)) / 2); bottom: calc(var(--sb) + var(--f) + 2 * var(--g) + var(--u)); }
+  #touch .b-crouch { right: calc(var(--sr) + var(--f) + var(--g)); bottom: var(--sb); }
+  #touch .b-scope { --s: calc(var(--u) * 1.15); width: calc(var(--s) * var(--bk, 1)); right: calc(var(--sr) + var(--f) + var(--g) - (var(--s) - var(--u)) / 2);
+    bottom: calc(var(--sb) + var(--u) + var(--g) + 6px); border-color: rgba(255, 255, 255, .5); font-size: clamp(8px, 2.3vmin, 10px);
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-weight: 700; }
+  #touch .b-scope.on { background: rgba(69, 150, 220, .55); border-color: rgba(140, 200, 255, .9); }
+  #touch .b-use { right: calc(var(--sr) + var(--f) + 2 * var(--g) + var(--u)); bottom: var(--sb); }
+  #touch .b-reload { right: calc(var(--sr) + var(--f) + 2 * var(--g) + var(--u)); bottom: calc(var(--sb) + var(--u) + var(--g) + 6px); }
+  #touch .b-weapon { left: 50%; transform: translateX(-50%); bottom: var(--sb); }
+  /* left cluster */
+  /* WALK sits above the second FIRE, to the right of the stick: the lane above the stick is the sprint lock's */
+  #touch .b-walk { left: calc(var(--sl) + var(--sk) + var(--g) + var(--u) * .1); bottom: calc(var(--sb) + var(--sk) * .55 + var(--u) * 1.2 + var(--g)); }
+  #touch .b-fire2 { --s: calc(var(--u) * 1.2); width: calc(var(--s) * var(--bk, 1)); left: calc(var(--sl) + var(--sk) + var(--g));
+    bottom: calc(var(--sb) + var(--sk) * 0.55); background: rgba(210, 58, 47, .3); border-color: rgba(255, 150, 140, .45); }
+  /* top bar */
+  #touch .b-bino, #touch .b-zin, #touch .b-zout, #touch .b-map, #touch .b-menu, #touch .b-gear {
+    top: var(--st); width: calc(var(--tb) * var(--bk, 1)); }
+  #touch .b-menu { left: max(12px, env(safe-area-inset-left)); }
+  #touch .b-map { left: calc(max(12px, env(safe-area-inset-left)) + var(--tb) + 6px); }
+  #touch .b-gear { right: max(12px, env(safe-area-inset-right)); font-size: clamp(16px, 4.5vmin, 20px); }
+  #touch .b-bino { right: calc(max(12px, env(safe-area-inset-right)) + var(--tb) + 6px); }
+  #touch .b-zin { right: calc(max(12px, env(safe-area-inset-right)) + 2 * (var(--tb) + 6px)); font-size: clamp(16px, 4.5vmin, 20px); }
+  #touch .b-zout { right: calc(max(12px, env(safe-area-inset-right)) + 3 * (var(--tb) + 6px)); font-size: clamp(16px, 4.5vmin, 20px); }
+  /* Settings sheet, touch guide and layout editor matching launcher theme */
+  #tsettings, #tguide {
+    position: absolute;
+    inset: 0;
+    z-index: 25;
+    display: grid;
+    place-items: center;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.78);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  #tsettings.hidden, #tguide.hidden { display: none; }
+  #tguide { z-index: 26; }
+
+  .ts-card, .tg-card {
+    width: min(100%, 480px);
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 5px;
+    background: var(--dark-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.45;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  }
+
+  .ts-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 8px;
+  }
+  .ts-head b {
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-main);
+  }
+  .ts-close {
+    background: #1f262c;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color: var(--accent);
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .ts-close:hover {
+    background: #3b4652;
+    color: #fff;
+  }
+
+  .tg-title {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-main);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .tg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 14px;
+    margin-bottom: 14px;
+  }
+  .tg-grid > div {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: #1f262c;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .tg-grid span {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #8898a6;
+  }
+  .tg-grid span b {
+    color: var(--text-main);
+    display: block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+  }
+
+  .tg-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 14px 0 14px;
+    font-size: 0.88rem;
+    color: var(--text-main);
+    background: #1f262c;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .tg-switch input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent);
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .tg-ok, #touch .t-edit .te-done {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(to bottom, #5c6f82 0%, #43515e 50%, #2f3a44 100%);
+    border: 1px solid #1f262c;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 2px 3px rgba(0, 0, 0, .2);
+    transition: .2s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+  }
+  .tg-ok:hover, #touch .t-edit .te-done:hover {
+    background: linear-gradient(to bottom, #6d8296 0%, #4e5e6d 50%, #3a4753 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 4px 6px rgba(0, 0, 0, .3);
+    transform: translateY(-1px);
+  }
+  .tg-ok:active, #touch .t-edit .te-done:active {
+    background: linear-gradient(to bottom, #2f3a44 0%, #43515e 100%);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .4);
+    transform: translateY(1px);
+  }
+
+  .ts-row {
+    display: block;
+    margin: 12px 0;
+  }
+  .ts-row > span {
+    display: flex;
+    justify-content: space-between;
+    color: var(--accent);
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .ts-row output {
+    color: var(--text-main);
+    font-variant-numeric: tabular-nums;
+  }
+  .ts-row input[type=range] {
+    width: 100%;
+    margin: 4px 0 0;
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+
+  .ts-seg, .seg {
+    display: flex;
+    gap: 8px;
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+    background: transparent;
+  }
+  .ts-seg button, .seg button {
+    flex: 1;
+    padding: 9px 10px;
+    font-size: 0.85rem;
+    background: #1f262c;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    color: #8898a6;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    transition: all .15s ease-in-out;
+    text-align: center;
+  }
+  .ts-seg button:hover, .seg button:hover {
+    background: #2b353e;
+    color: #fff;
+  }
+  .ts-seg button.on, .seg button.on {
+    background: linear-gradient(to bottom, #5c6f82 0%, #43515e 50%, #2f3a44 100%);
+    border-color: var(--accent);
+    color: #fff;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .ts-note {
+    display: block;
+    color: var(--accent);
+    font-size: 0.78rem;
+    margin-top: 5px;
+    opacity: 0.75;
+  }
+  .ts-checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-top: 6px;
+  }
+  .ts-checks label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--text-main);
+  }
+  .ts-checks input {
+    width: 17px;
+    height: 17px;
+    accent-color: var(--accent);
+    margin: 0;
+  }
+
+  .ts-layout {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #1f262c;
+    color: var(--text-main);
+    font: 700 0.85rem inherit;
+    cursor: pointer;
+    transition: all .15s ease;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .ts-layout:hover {
+    background: #2b353e;
+    border-color: var(--accent);
+  }
+
+  .ts-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 12px;
+  }
+  .ts-foot button {
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #1f262c;
+    color: #8898a6;
+    font: 700 0.82rem inherit;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .ts-foot button:hover {
+    background: #2b353e;
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* layout editor bar on top */
+  #touch.edit { display: block; z-index: 28; background: rgba(0, 0, 0, .75); }
+  #touch .t-edit {
+    position: absolute;
+    left: 50%;
+    top: calc(var(--st) + 4px);
+    transform: translateX(-50%);
+    z-index: 1;
+    width: min(96%, 560px);
+    padding: 12px 16px;
+    border-radius: 5px;
+    background: var(--dark-bg);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--text-main);
+    font: 12px/1.3 inherit;
+    display: none;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+  #touch.edit .t-edit { display: flex; }
+  #touch .t-edit b { width: 100%; text-align: center; font-size: 13px; color: var(--text-main); }
+  #touch .t-edit label { display: flex; align-items: center; gap: 6px; color: var(--accent); font-size: 0.82rem; }
+  #touch .t-edit input[type=range] { width: 110px; accent-color: var(--accent); margin: 0; touch-action: pan-x; }
+  #touch .t-edit button {
+    padding: 6px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #1f262c;
+    color: var(--text-main);
+    font: 700 12px inherit;
+    cursor: pointer;
+  }
+  #touch .t-edit button:hover {
+    background: #2b353e;
+    border-color: var(--accent);
+  }
+  #touch.edit .t-btn.sel, #touch.edit .t-stick.sel {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+  }
+  #touch .t-edit .te-one .te-sel {
+    color: var(--accent);
+    font-weight: 700;
+  }
+  @media (max-height: 420px) {
+    .tg-grid { gap: 4px 10px; }
+    .tg-grid span { font-size: 11px; }
+    .tg-grid > div { padding: 6px 8px; }
+    .tg-card, .ts-card { padding: 12px 16px; }
+    .tg-ok { margin-top: 8px; padding: 8px; }
+    .ts-row { margin: 6px 0; }
+  }
+
+  /* --- loading & boot flourish --- */
+  /* a faint green scanline drifts down the poster so the landing screen feels alive while files download */
+
+
+  #subcap { position: absolute; z-index: 2; pointer-events: none; /* under the touch buttons (#touch: 3) */ box-sizing: border-box; padding: 2px 5px;
+    font-weight: 700; line-height: 1.15; font-family: inherit; text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
+    letter-spacing: .01em; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center; }
+  #subcap.band { background: #000; }
+  #subcap.panel { background: rgba(4, 22, 6, .93); border: 1px solid rgba(70, 200, 90, .7); }
+
+
+
+  #fstip, #ctltip, #locktip { position: absolute; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 2;
+    padding: 8px 16px; border-radius: 99px; background: rgba(0, 0, 0, .7); color: #fff; font-size: 13px;
+    pointer-events: none; transition: opacity .4s ease; text-align: center; white-space: nowrap; }
+  #ctltip { opacity: 0; }
+  #soundtip { position: absolute; left: 50%; top: 16px; transform: translateX(-50%); z-index: 2; padding: 6px 14px; border-radius: 99px;
+    background: rgba(0, 0, 0, .65); color: #fff; font-size: 13px; pointer-events: none; }
+  kbd { font: 600 12px ui-monospace, SFMono-Regular, Menlo, monospace; padding: 1px 6px; border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .25); background: rgba(255, 255, 255, .08); }
+
+    @media (max-width: 768px) {
+      .header-title { font-size: 2.4rem; }
+      .loading-text { font-size: 1.8rem; }
+      .menu-box { padding: 22px 18px; }
+      .main-action-btn { padding: 13px; font-size: 1rem; }
+    }
+  </style>
+</head>
+<body class="loading-gate">
+  <!-- Home / Launcher Menu -->
+  <div id="home-view" class="screen-view">
+    <div class="center-content">
+      <div class="logo-area">
+        <h1 class="header-title">IGI</h1>
+      </div>
+      <div class="menu-box">
+        <button id="btn-play-game" class="action-btn main-action-btn">PLAY GAME</button>
+        <button id="btn-settings-game" class="action-btn main-action-btn" style="margin-top: 10px;">SETTINGS</button>
+        <button id="btn-mod-game" class="action-btn main-action-btn btn-green" style="margin-top: 10px;">UNLOCK: ALL MISSIONS (100%)</button>
+        <button id="btn-reset-game" class="action-btn main-action-btn btn-red" style="margin-top: 10px;">RESET PROGRESS</button>
+        <div id="status-msg" class="status-msg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Settings Modal -->
+  <div id="settings-overlay" class="modal-overlay">
+    <div class="menu-box modal-box" style="max-width: 500px; max-height: 88vh; overflow-y: auto; gap: 16px; text-align: left;">
+      <h2 class="modal-title" style="text-align: center;">SETTINGS</h2>
+
+      <!-- Keyboard Layout -->
+      <div class="setting-row">
+        <label class="setting-label">Keyboard Layout</label>
+        <div class="setting-options" id="opt-preset-group">
+          <button type="button" class="opt-btn" data-preset="modern">Modern (WASD)</button>
+          <button type="button" class="opt-btn" data-preset="original">Original</button>
+        </div>
+        <div id="setting-preset-note" class="setting-subnote">WASD, Shift walk, Ctrl crouch, Space jump, R reload. Click any key to change it.</div>
+      </div>
+
+      <!-- Controls Device -->
+      <div class="setting-row">
+        <label class="setting-label">Control Type</label>
+        <div class="setting-options" id="opt-device-group">
+          <button type="button" class="opt-btn" data-device="pc">Keyboard &amp; mouse</button>
+          <button type="button" class="opt-btn" data-device="touch">Phone / tablet</button>
+        </div>
+      </div>
+
+      <!-- Screen Display (Widescreen) -->
+      <div class="setting-row">
+        <label class="setting-label">Screen Display</label>
+        <div class="setting-options" id="opt-wide-group">
+          <button type="button" class="opt-btn" data-wide="1">Full screen (wide)</button>
+          <button type="button" class="opt-btn" data-wide="0">Original 4:3</button>
+        </div>
+        <div class="setting-subnote">Wide: the 3D view fills a widescreen display with a wider field of view; menus stay 4:3.</div>
+      </div>
+
+      <!-- Game Audio -->
+      <div class="setting-row">
+        <label class="setting-label">Game Audio</label>
+        <div class="setting-options" id="opt-sound-group">
+          <button type="button" class="opt-btn" data-sound="1">ENABLED</button>
+          <button type="button" class="opt-btn" data-sound="0">MUTED</button>
+        </div>
+      </div>
+
+      <!-- Mouse Buttons -->
+      <div class="setting-row">
+        <label class="setting-label">Mouse Buttons</label>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="setting-row-flex">
+            <span style="color: var(--text-main); font-size: 0.88rem;">Left Click</span>
+            <select id="setting-mouse-0" class="setting-select" style="max-width: 190px;"></select>
+          </div>
+          <div class="setting-row-flex">
+            <span style="color: var(--text-main); font-size: 0.88rem;">Right Click</span>
+            <select id="setting-mouse-2" class="setting-select" style="max-width: 190px;"></select>
+          </div>
+          <div class="setting-row-flex">
+            <span style="color: var(--text-main); font-size: 0.88rem;">Middle Click</span>
+            <select id="setting-mouse-1" class="setting-select" style="max-width: 190px;"></select>
+          </div>
+          <div class="setting-row-flex">
+            <span style="color: var(--text-main); font-size: 0.88rem;">Scroll Wheel</span>
+            <span style="color: var(--accent); font-size: 0.85rem; font-weight: 700;">NEXT / PREV WEAPON</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mouse Sensitivity -->
+      <div class="setting-row">
+        <div class="setting-row-flex">
+          <label class="setting-label">Mouse Sensitivity</label>
+          <span id="setting-sens-val" style="color: var(--text-main); font-weight: 700; font-size: 0.88rem;">0.6×</span>
+        </div>
+        <input id="setting-sens-range" type="range" min="0.2" max="3" step="0.1" value="0.6" style="accent-color: var(--accent); width: 100%; cursor: pointer;">
+      </div>
+
+      <!-- Scoped Sensitivity -->
+      <div class="setting-row">
+        <div class="setting-row-flex">
+          <label class="setting-label">Scoped Sensitivity</label>
+          <span id="setting-scoped-sens-val" style="color: var(--text-main); font-weight: 700; font-size: 0.88rem;">1.0×</span>
+        </div>
+        <input id="setting-scoped-sens-range" type="range" min="0.3" max="3" step="0.1" value="1.0" style="accent-color: var(--accent); width: 100%; cursor: pointer;">
+        <div class="setting-subnote">Scoped: while zoomed in (scope or binoculars), on top of the game's own slow-down.</div>
+      </div>
+
+      <!-- Fullscreen Toggle -->
+      <div class="setting-row">
+        <label class="setting-label">Screen Window</label>
+        <div class="setting-options">
+          <button type="button" id="btn-toggle-fullscreen" class="opt-btn" style="flex: 1; padding: 10px;">TOGGLE FULLSCREEN</button>
+        </div>
+      </div>
+
+      <!-- Key Bindings Reference -->
+      <details style="text-align: left; margin-top: 4px;">
+        <summary style="color: var(--accent); cursor: pointer; font-size: 0.8rem; letter-spacing: 1.5px; font-weight: 700; text-transform: uppercase;">Customize Key Bindings</summary>
+        <div id="kbd-binds" style="margin-top: 10px;"></div>
+        <div style="margin-top: 10px;">
+          <button type="button" id="kbd-reset" class="opt-btn" style="width: 100%; padding: 9px;">Reset Controls to Defaults</button>
+        </div>
+      </details>
+
+      <div class="modal-actions" style="margin-top: 8px;">
+        <button id="btn-settings-close" class="action-btn main-action-btn">CLOSE</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirmation Warning Modal -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="menu-box modal-box">
+      <h2 id="modal-title" class="modal-title">CONFIRM ACTION</h2>
+      <p id="modal-text" class="modal-text"></p>
+      <div id="modal-warning" class="modal-warning"></div>
+      <div class="modal-actions">
+        <button id="btn-modal-cancel" class="action-btn">CANCEL</button>
+        <button id="btn-modal-confirm" class="action-btn btn-red">CONFIRM</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Canvas & Loading View -->
+  <div id="game-container">
+    <div id="stage">
+      <div id="subcap" class="hidden" aria-live="polite"></div>
+      <canvas id="canvas" width="1024" height="768" tabindex="0"></canvas>
+      <button id="fs" title="Fullscreen (Alt+Enter)" aria-label="Toggle fullscreen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path id="fs-icon" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+      </button>
+      <div id="rotate">Turn your device sideways to play</div>
+      <div id="tguide" class="hidden" role="dialog" aria-label="How to play">
+        <div class="tg-card">
+          <b class="tg-title">How to play</b>
+          <div class="tg-grid">
+            <div><span><b>Move</b>The stick on the left. Push forward and slide your thumb up onto the runner to lock running; tap the stick to stop. WALK: tap to walk, tap again to run.</span></div>
+            <div><span><b>Aim</b>Swipe anywhere in the middle. Hold either FIRE and drag to aim while shooting.</span></div>
+            <div><span><b>Scope</b>Tap SCOPE to snap the sniper scope or binoculars to 4× and back; + / − fine-tune.</span></div>
+            <div><span><b>Crouch / jump / peek</b>Around FIRE. Tap CROUCH to crouch, tap again to stand. There is no prone in this game.</span></div>
+            <div><span><b>Settings</b>Sensitivity, scope zoom, gyroscope, and Edit layout to drag the buttons where you like. MENU pauses; tap the menu items as usual.</span></div>
+            <div><span><b>Gyroscope</b>Turn the phone to fine-aim while scoped, like PUBG. Your browser may ask for motion access.</span></div>
+          </div>
+          <label class="tg-switch"><input type="checkbox" id="tg-gyro" checked> Gyroscope aiming while scoped</label>
+          <button type="button" class="tg-ok btn">Let's go</button>
+        </div>
+      </div>
+      <div id="fstip" class="hidden">Press <kbd>Alt</kbd> + <kbd>Enter</kbd> for fullscreen</div>
+      <div id="ctltip" class="hidden"></div>
+      <div id="locktip" class="hidden">Click the game to capture the mouse (full 360° turning)</div>
+      <div id="soundtip" class="hidden">Tap the game or press a key to turn on sound</div>
+      <!-- In-game gear button to open settings dialog -->
+      <button id="kbd-show" type="button" aria-label="Settings" title="Settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+      </button>
+      <div id="soundtip" class="hidden">Tap the game or press a key to turn on sound</div>
+    </div>
+
+    <!-- Loading / Booting Overlay -->
+    <div id="status-overlay" class="status-overlay">
+      <div id="loading-box" class="loading-container">
+        <h2 id="loading-text" class="loading-text">LOADING...</h2>
+        <div id="loading-subtext" class="loading-subtext">this may take some time on first load, be patient</div>
+        <div class="progress-bar-bg">
+          <div id="loading-bar-fill" class="progress-bar-fill"></div>
+        </div>
+        <div id="loading-percent" class="progress-percent">0%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden compatibility hooks for existing script bindings -->
+  <div style="display:none">
+    <div id="panel">
+      <div id="view-home" class="view">
+        <button id="play"></button>
+        <button id="download"></button>
+        <button id="pick"></button>
+        <input type="file" id="folder">
+      </div>
+      <div id="view-loading" class="view">
+        <div id="status"></div>
+        <progress id="progress"></progress>
+        <div id="eta"></div>
+        <div id="tips"></div>
+        <div id="help"></div>
+      </div>
+    </div>
+    <div id="booting">
+      <div class="boot-phase"></div>
+      <div class="tips"><span class="tip-text"></span></div>
+    </div>
+    <div id="kbd-mouse"></div>
+    <div id="netstatus"></div>
+    <button id="kbd-close"></button>
+  </div>
+
+  <script src="controls.js?v=10"></script>
+  <script src="touch.js?v=10"></script>
+  <script src="loader.js?v=10"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "game.pack.part1",
+    "size": 22223741,
+    "rawSize": 36688793,
+    "count": 133
+  },
+  {
+    "file": "game.pack.part2",
+    "size": 23529205,
+    "rawSize": 45887063,
+    "count": 179
+  },
+  {
+    "file": "game.pack.part3",
+    "size": 19412167,
+    "rawSize": 38605955,
+    "count": 177
+  },
+  {
+    "file": "game.pack.part4",
+    "size": 23422358,
+    "rawSize": 60977286,
+    "count": 248
+  },
+  {
+    "file": "game.pack.part5",
+    "size": 21977233,
+    "rawSize": 43140637,
+    "count": 295
+  },
+  {
+    "file": "game.pack.part6",
+    "size": 23545089,
+    "rawSize": 48648757,
+    "count": 187
+  },
+  {
+    "file": "game.pack.part7",
+    "size": 22785130,
+    "rawSize": 47252907,
+    "count": 207
+  },
+  {
+    "file": "game.pack.part8",
+    "size": 20500026,
+    "rawSize": 46537306,
+    "count": 224
+  },
+  {
+    "file": "game.pack.part9",
+    "size": 23215427,
+    "rawSize": 46079328,
+    "count": 147
+  },
+  {
+    "file": "game.pack.part10",
+    "size": 20359057,
+    "rawSize": 40458635,
+    "count": 129
+  },
+  {
+    "file": "game.pack.part11",
+    "size": 22945318,
+    "rawSize": 23349378,
+    "count": 2
+  },
+  {
+    "file": "game.pack.part12",
+    "size": 20386903,
+    "rawSize": 21734594,
+    "count": 31
+  }
+]
